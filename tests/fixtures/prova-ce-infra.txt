@@ -1,0 +1,365 @@
+CEBRASPE – INFRA S. A. – Edital: 2026
+-- CONHECIMENTOS ESPECÍFICOS --
+A respeito do alinhamento de negócio e dos níveis de maturidade
+conforme o CMMI-DEV v2.0, julgue os itens a seguir.
+41 O CMMI-DEV v2.0 estabelece que, no nível de maturidade 3,
+é necessário que haja processos organizacionais definidos e
+institucionalizados, ainda que a organização adote métodos
+ágeis.
+42 A exigência de uso de métricas alinhadas aos objetivos do
+negócio inicia-se no nível de maturidade 4.
+O Kubernetes estabelece determinadas características
+arquiteturais e lida com orquestração e alocação de recursos em
+sistemas computacionais. Acerca do Kubernetes, julgue os itens
+que se seguem.
+43 O plano de controle do Kubernetes deve ser executado em
+uma única máquina (virtual ou física), e um cluster
+geralmente executa apenas um nó.
+44 No Kubernetes, cada Pod necessita de pelo menos um cluster
+para executar um nó de trabalho.
+Considerando os diagramas e suas funções na UML 2, julgue os
+itens subsequentes.
+45 Diagramas de pacotes modelam a estrutura hierárquica dos
+grupos de classes no sistema em tempo de compilação.
+46 Diagramas de componente modelam os artefatos e
+componentes que compõem o sistema.
+A respeito da linguagem de programação Python (versão 3.10.0
+ou superior), julgue os próximos itens.
+47 A execução da função fun1(), apresentada no código
+Python a seguir, resultará em um erro do tipo
+UnboundLocalError.
+48 A execução do código Python a seguir não terá qualquer tipo
+de parada.
+Julgue os itens a seguir, relativos a clean code e às linguagens de
+programação COBOL e Java.
+49 Em COBOL, a instrução EVALUATE possibilita a execução
+de diversas condições que sejam verdadeiras antes da
+próxima instrução.
+50 De acordo com as práticas de clean code, deve-se evitar a
+notação húngara na definição de nomes de variáveis.
+51 A linguagem Java utiliza ponteiros para o gerenciamento de
+endereços de memória, o que garante mais segurança para o
+uso do Garbage Collector.
+A respeito de arquitetura, design e testes de software, julgue os
+itens seguintes.
+52 Os microsserviços devem ser submetidos a testes de código,
+que verificam a unidade e a integração, e a testes de carga,
+que simulam mudanças na quantidade de acionamento.
+53 De acordo com um dos princípios da arquitetura orientada a
+objetos, a programação volta à interface, e não à
+implementação dos próprios objetos.
+54 Em ambientes web, os requisitos funcionais definem o modo
+de comportamento da aplicação, com foco em características
+como desempenho e usabilidade.
+Acerca de Kanban e de Scrum, julgue os itens subsecutivos.
+55 Um dos pilares da metodologia Scrum é a adaptação,
+momento em que, identificados uma oportunidade ou risco,
+todos os integrantes devem colaborar.
+56 No Kanban, o WIP (work in progress) indica a quantidade
+de itens de trabalho em progresso em determinado período
+de tempo.
+A INFRA S.A. decidiu implantar um ambiente
+corporativo de dados para consolidar informações de projetos
+ferroviários, rodoviários e hidroviários. Esse ambiente deverá
+integrar dados provenientes de sistemas legados, bases
+geoespaciais, relatórios técnicos e sistemas de acompanhamento
+físico-financeiro, suportando consultas analíticas complexas,
+operações transacionais e alto volume de dados históricos.
+A partir dessa situação hipotética, julgue os itens a seguir,
+relativos a modelagem de banco de dados, linguagem de
+manipulação de dados (DML) e otimização de performance em
+larga escala.
+57 Em consultas analíticas da INFRA S.A. que consolidam dados
+histórico-financeiros de diversos projetos, o uso de SELECT *
+tende a aumentar o consumo de memória e de E/S.
+58 A criação de múltiplos índices nas tabelas de
+acompanhamento físico-financeiro da INFRA S.A. pode
+impactar negativamente o desempenho de operações de
+INSERT, UPDATE e DELETE nessas tabelas.
+59 A adoção de um modelo conceitual bem definido, como o
+modelo entidade-relacionamento, contribuiria para reduzir
+redundâncias e inconsistências nos dados integrados pela
+INFRA S.A.
+60 No ambiente da INFRA S.A., a substituição de operações
+UPDATE por comandos DELETE seguidos de INSERT
+garantiria melhor desempenho em atualizações massivas de
+contratos.
+61 Na modelagem do banco corporativo da INFRA S.A., a
+definição correta de chaves primárias e estrangeiras
+reforçaria a integridade referencial entre projetos, contratos e
+medições.
+1 def calcula_area(l, c):
+2 area = l * c
+3 breakpoint()
+4 return area
+1 Var1 = 10
+2 def fun1():
+3 print(Var1)
+4 Var1 += 1
+
+-- 1 of 4 --
+
+CEBRASPE – INFRA S. A. – Edital: 2026
+A INFRA S.A. implantou uma arquitetura corporativa de
+dados híbrida para suportar suas atividades estratégicas,
+sobretudo a estruturação de projetos de infraestrutura logística.
+Nessa arquitetura, o Oracle Database 21C é utilizado para
+sistemas críticos de gestão contratual e execução orçamentária;
+bancos de dados NoSQL são empregados para armazenar dados
+semiestruturados oriundos de sensores, documentos técnicos e
+relatórios de campo; e um data lake corporativo é adotado para
+ingestão massiva de dados brutos históricos, inclusive dados
+geoespaciais e séries temporais.
+Considerando a situação hipotética apresentada, julgue os itens a
+seguir.
+62 No cenário da INFRA S.A., a replicação automática oferecida
+por bancos NoSQL distribuídos garante consistência imediata
+entre todos os nós do cluster, tornando desnecessária a
+definição de políticas de consistência para aplicações críticas
+de acompanhamento de contratos de obras.
+63 O data lake corporativo da INFRA S.A. deve armazenar
+dados já transformados e normalizados, evitando a ingestão
+de dados brutos.
+64 No ambiente descrito da INFRA S.A., a utilização de
+In-Memory Column Store no Oracle 21C garantiria redução
+automática do custo de operações DML massivas sobre
+tabelas de monitoramento ferroviário, dispensando ajustes de
+paralelismo e controle de transações.
+65 A utilização de bancos NoSQL pela INFRA S.A. dispensa a
+definição de qualquer modelo lógico, pois a ausência de
+esquema elimina preocupações com consistência estrutural.
+66 A adoção da arquitetura multitenant do Oracle 21C no
+ambiente da INFRA S.A. facilitaria a consolidação de bases
+contratuais, mantendo isolamento lógico entre projetos
+distintos.
+A INFRA S.A. implantou um ambiente corporativo de BI
+(business intelligence) para apoiar decisões estratégicas
+relacionadas à priorização de investimentos, ao acompanhamento
+de contratos, à análise de riscos e à avaliação de desempenho de
+obras ferroviárias e rodoviárias. O ambiente integra dados
+históricos provenientes de sistemas transacionais, relatórios
+técnicos e bases externas, organizados em um data warehouse
+corporativo, com uso de modelagem dimensional, cubos OLAP e
+técnicas avançadas de data mining para identificação de padrões
+de atraso, sobrecusto e impacto ambiental.
+Com relação à situação hipotética acima apresentada, julgue os
+itens a seguir.
+67 No ambiente descrito de BI da INFRA S.A., a combinação
+de particionamento da tabela de fatos por período temporal e
+o uso de índices bitmap nas chaves dimensionais
+contribuiriam para reduzir operações de I/O e acelerar
+consultas analíticas sobre grandes volumes históricos de
+dados.
+68 A utilização de cubos OLAP no ambiente da INFRA S.A.
+permite apenas análises pré-definidas, inviabilizando
+operações ad hoc como drill-down e slice-and-dice sobre
+indicadores de execução orçamentária.
+69 A otimização de bases multidimensionais dispensa o uso de
+índices, uma vez que operações OLAP dependem
+exclusivamente de varreduras completas das tabelas de fatos.
+70 No ambiente analítico da INFRA S.A., o uso de agregações
+pré-calculadas em tabelas de fatos otimizaria o tempo de
+resposta das consultas OLAP, mas demandaria maior espaço
+de armazenamento.
+71 No contexto da INFRA S.A., a modelagem dimensional em
+esquema estrela facilitaria consultas analíticas em larga
+escala ao reduzir o número de junções, favorecendo a
+performance de relatórios gerenciais de acompanhamento de
+obras.
+A INFRA S.A. passou a lidar com grandes volumes de
+dados heterogêneos oriundos de sensores de campo, relatórios de
+fiscalização, sistemas legados e bases externas. Para ampliar a
+capacidade analítica, a empresa pública adotou um ecossistema
+baseado em Apache Hadoop para armazenamento e
+processamento distribuído, integrando os dados consolidados a
+dashboards interativos desenvolvidos na ferramenta Qlik,
+voltados à alta gestão e a órgãos de controle. Com o objetivo de
+aprimorar a comunicação dos resultados analíticos, a INFRA
+S.A. também incorporou práticas de storytelling com dados,
+buscando transformar análises técnicas complexas em narrativas
+compreensíveis para gestores não técnicos, mantendo rigor
+informacional e rastreabilidade.
+A partir da situação hipotética precedente, julgue os itens a
+seguir.
+72 Nos dashboards estratégicos da INFRA S.A., o excesso de
+elementos visuais e métricas detalhadas fortalece o
+storytelling ao aumentar a precisão técnica das análises
+apresentadas à alta gestão.
+73 O HDFS do Apache Hadoop permite o armazenamento
+distribuído e tolerante a falhas de grandes volumes de dados
+não estruturados, sendo adequado, no que concerne às
+atividades da INFRA S.A., para dados históricos de sensores
+e registros de campo, por exemplo.
+74 O uso do modelo associativo da ferramenta Qlik permite que
+a INFRA S.A. explore dados de múltiplas fontes sem a
+necessidade de caminhos de navegação previamente
+definidos, favorecendo análises exploratórias.
+75 A utilização de storytelling em dashboards do Qlik dispensa
+validações estatísticas e técnicas, pois o foco narrativo
+substitui a necessidade de rigor analítico.
+Considerando processos de autenticação e autorização
+relacionados ao OpenID Connect e ao OAuth 2.0, julgue os itens
+a seguir.
+76 Na especificação do OAuth 2.0 (RFC 6749), os servidores de
+autorização podem processar parâmetros de solicitação não
+reconhecidos.
+77 No OAuth 2.0, o parâmetro max_age faz que as partes
+envolvidas em um processo de autorização busquem a data
+atual do sistema.
+Ataques CSRF (cross-site request forgery) apresentam
+determinadas características e dependem, para serem efetivos, de
+detalhes técnicos dos métodos do protocolo HTTP. A respeito
+desse tipo de ataque, julgue os itens que se seguem.
+78 Com o protocolo HTTP, tanto o método GET quanto o
+método POST podem ser utilizados em ataques CSRF.
+79 No ataque do tipo CSRF, a vítima é enganada e manipulada
+a enviar uma solicitação maliciosa.
+A varredura de portas (port scan) é uma técnica frequentemente
+utilizada por atacantes em ambiente de redes e sistemas
+operacionais. A respeito do funcionamento e das características
+técnicas dos protocolos envolvidos na varredura de portas, julgue
+os itens a seguir.
+80 Suponha que uma máquina Linux esteja sendo testada com
+varredura de porta com o protocolo UDP. Nesse caso, se
+a porta estiver fechada, é possível que a máquina responda
+ao pedido de conexão com a mensagem ICMP
+"port unreachable".
+81 O protocolo TCP não é suscetível a port scan porque, por
+padrão, ele deve responder a um pedido de conexão com um
+SYN ACK.
+
+-- 2 of 4 --
+
+CEBRASPE – INFRA S. A. – Edital: 2026
+No que se refere a operações lógicas e propriedades de segurança
+ligadas a criptografia simétrica e assimétrica, julgue os itens a
+seguir.
+82 Em criptografia assimétrica, o tamanho da chave privada e o
+tamanho da chave pública são indiferentes para a segurança
+do algoritmo.
+83 É comum que algoritmos criptográficos simétricos que usam
+cifra de fluxo executem a operação ou exclusivo (XOR).
+Acerca dos aspectos técnicos importantes para que uma
+assinatura digital ocorra e dos tipos de formatos de certificados
+digitais, julgue os itens a seguir.
+84 Um certificado digital no formato PEM
+normalmente é um texto ASCII, codificado em Base64,
+delimitado por -----BEGIN CERTIFICATE-----.
+85 O uso de HMAC é uma forma de garantir que uma
+assinatura digital seja efetiva.
+A diretoria executiva da INFRA S.A., em reunião
+técnica, determinou que todos os novos sistemas de suporte ao
+transporte ferroviário e rodoviário devem ter seu valor público
+comprovado e estar estritamente vinculados às prioridades de
+governo. Para atender a essa diretriz, a secretaria de TI deve
+aplicar modelos de governança que transformem objetivos de
+negócio em entregas técnicas reais, garantindo que a estrutura
+organizacional suporte a cocriação de valor conforme os
+frameworks COBIT 2019 e ITIL v4.
+Considerando essa situação hipotética, julgue os itens a seguir.
+86 Para que a gestão dos serviços de TI da INFRA S.A. seja
+eficiente, de modo que o suporte aos sistemas de
+monitoramento ferroviário entregue resultados úteis aos
+cidadãos, são necessários papéis, responsabilidades e
+sistemas de autoridade bem definidos, conforme a dimensão
+"Organizações e Pessoas" do ITIL v4.
+87 Para alinhar o suporte tecnológico aos grandes
+empreendimentos rodoviários da INFRA S.A., a diretoria
+pode utilizar o modelo cascata de metas do COBIT 2019
+para converter as metas corporativas em metas de
+alinhamento.
+A equipe de sistemas da INFRA S.A. está desenvolvendo
+novos módulos para o Observatório Nacional de Transporte e
+Logística (ONTL) e mapeando processos de licenciamento
+ambiental. Para otimizar o fluxo de trabalho e medir o
+desempenho, são utilizadas a notação BPMN e práticas de
+metodologias ágeis como Kanban e Scrum.
+Com base na situação hipotética apresentada, julgue os itens
+subsequentes.
+88 Considere que, durante o desenvolvimento de novos
+módulos para o ONTL, a equipe de sistemas tenha adotado o
+Kanban. Nesse caso, para medir a produtividade e a
+velocidade do time, os desenvolvedores devem utilizar o
+gráfico de Burndown, que registra o lead time acumulado
+das histórias de usuário finalizadas em cada interação.
+89 Suponha que a equipe de TI da INFRA S.A. tenha mapeado
+o processo de emissão de licenças ambientais utilizando a
+notação BPMN. Nesse caso, de acordo com os padrões dessa
+simbologia, os objetos de conexão, como o fluxo de
+sequência e o fluxo de mensagem, podem ser utilizados
+indiferentemente para ligar atividades dentro de uma mesma
+raia (lane).
+Em virtude do regime jurídico das empresas públicas federais, a
+INFRA S.A. deve manter altos padrões de integridade e
+resiliência, contexto no qual a gestão de riscos desempenha
+relevante papel. A respeito das normas relativas à gestão de
+riscos de TI, jugue os itens a seguir.
+90 Suponha que um incidente de segurança tenha afetado os
+servidores que processam os dados do ONTL da INFRA
+S.A. Nesse caso, para remediar a situação conforme a
+ISO 22301, o plano de continuidade de negócios (PCN) deve
+focar o isolamento físico do hardware atingido, sendo este o
+principal componente da governança de TI para garantir a
+integridade dos dados.
+91 A aplicação da norma ISO 31000 permite identificar eventos
+que possam comprometer a integridade dos dados da
+organização, servindo como fundamento para o cumprimento
+de normas de compliance e diretrizes de órgãos de controle.
+Está em fase de planejamento no âmbito da INFRA S.A. a
+contratação de uma nova solução de TI destinada ao suporte do
+Observatório Nacional de Transporte e Logística. Durante a
+elaboração do estudo técnico preliminar (ETP), a equipe definiu
+as métricas de remuneração e a segregação de funções entre a
+administração e a contratada, com base na Lei n.º 13.303/2016 e
+na IN SGD/ME n.º 94/2022.
+Considerando a situação hipotética precedente, julgue os itens a
+seguir.
+92 Se a INFRA S.A. definir o uso de unidade de serviço
+técnico (UST) ou de pontos de função (PF) para o
+desenvolvimento de sistemas no âmbito da referida
+contratação, o fiscalizador do contrato terá a atribuição de
+indicar diretamente aos funcionários da contratada as
+prioridades de execução.
+93 No âmbito da referida contratação, o fiscal técnico do
+contrato deve atuar no monitoramento técnico da execução
+do contrato, enquanto o preposto da contratada tem a função
+de representar a empresa para a interlocução administrativa.
+94 Como a contratação em apreço está em fase de
+planejamento, é correto concluir que já houve a elaboração
+do documento de formalização da demanda, que deve conter,
+entre outros aspectos, o grau de prioridade da contratação,
+classificado em baixo, médio ou alto.
+Considerando a execução de contratos de manutenção de
+sistemas e operação de TI na INFRA S.A., julgue os itens que se
+seguem.
+95 Em contratação por postos de trabalho para operação de TI
+na INFRA S.A., a definição de indicadores de nível de
+serviço vinculados a resultados é obrigatória para afastar a
+característica de mera locação de mão de obra e evitar a
+subordinação direta entre os fiscais e os funcionários
+terceirizados.
+96 A utilização da unidade de serviço técnico (UST) vinculada a
+indicadores de nível de serviço dispensa o acompanhamento
+da execução contratual pelo fiscal, visto que a remuneração
+por produto garante automaticamente a qualidade da entrega
+realizada.
+
+-- 3 of 4 --
+
+CEBRASPE – INFRA S. A. – Edital: 2026
+Considere que, no curso da fiscalização de determinado contrato da INFRA S.A., um fiscal tenha detectado falhas na prestação do
+serviço que poderiam comprometer a continuidade das operações. A partir dessa situação hipotética, julgue os itens seguintes.
+97 Em contratos da INFRA S.A., a aplicação de sanções administrativas ao contratado deve ocorrer de forma vinculada ao valor
+global do contrato, sendo vedado ao fiscalizador utilizar os dados da pesquisa de preços da IN SEGES/ME n.º 65/2021 como
+parâmetro para o cálculo do valor de eventual multa.
+98 Caso ocorra interrupção prolongada do serviço por culpa da contratada, a INFRA S.A. pode rescindir o contrato e aplicar sanções
+administrativas fundamentadas em sua inexecução parcial ou total, desde que o fiscal tenha registrado as notificações e os níveis
+de serviço descumpridos.
+99 Caso um módulo de sistema desenvolvido no âmbito do contrato em apreço apresente erros graves, a INFRA S.A. deve aplicar ao
+contratado a penalidade de suspensão de licitar imediatamente após o registro da irregularidade pelo fiscal.
+100 Ao identificar falhas na prestação do serviço, o fiscal da INFRA S.A. deve realizar o registro das irregularidades e emitir
+notificação para a sua correção.
+Espaço livre
+
+-- 4 of 4 --
+

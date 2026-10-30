@@ -1,0 +1,41 @@
+{
+  "name": "concurso-alvo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "provas:backfill": "tsx scripts/backfill.ts",
+    "taxonomia:sugerir": "tsx scripts/taxonomia-sugerir.ts",
+    "provas:reclassificar": "tsx scripts/reclassificar.ts",
+    "provas:importar-ads": "tsx scripts/importar-provas-ads.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "bcryptjs": "^3.0.3",
+    "cheerio": "^1.2.0",
+    "dotenv": "^18.0.9",
+    "jose": "^6.2.13",
+    "next": "16.4.3",
+    "node-cron": "^4.6.0",
+    "pdf-parse": "^2.4.5",
+    "prisma": "^6.19.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}

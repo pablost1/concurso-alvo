@@ -1,0 +1,377 @@
+||378_ABIN_014_01N354985|| 	CESPE | CEBRASPE – ABIN – Aplicação: 2018
+CONHECIMENTOS ESPECÍFICOS
+Acerca de princípios e de conceitos arquivísticos, julgue os itens
+que se seguem.
+61 	A aplicação do princípio da territorialidade restringe-se ao
+nível nacional.
+62 	Os arquivos de um órgão público existente há mais de
+cem anos fazem parte de um fundo aberto.
+63 	Entre as principais características do documento de arquivo, a
+autenticidade é a que tem ganhado maior destaque com o
+cenário digital.
+64 	A imparcialidade, como característica do documento de
+arquivo, diz respeito à criação, à manutenção e à custódia de
+arquivos.
+65 	O princípio da proveniência e o resultado de sua aplicação — o
+fundo de arquivo — impõem-se à arquivologia, pois esta tem
+como objetivo administrar documentos de pessoas físicas ou
+jurídicas.
+Com base na legislação que trata do acesso a documentos, julgue os
+itens seguintes.
+66 	Todos têm direito à informação, entretanto os órgãos públicos
+só deverão dar acesso às informações que sejam solicitadas por
+via do setor de protocolo e arquivo.
+67 	Transcorrido o prazo de classificação dos documentos ou
+consumado o evento que defina o seu termo final, a informação
+tornar-se-á, automaticamente, de acesso público.
+68 	O prazo máximo de classificação de sigilo da informação como
+reservada é de quinze anos.
+69 	O acesso à informação compreende, entre outros, o direito de
+obter informação primária, íntegra, autêntica e atualizada.
+70 	Informações pessoais são de acesso restrito e são classificadas
+como ultrassecretas.
+Com relação às disposições da Norma Brasileira de Descrição
+Arquivística (NOBRADE), julgue os itens seguintes.
+71 	Na elaboração de uma descrição com base na NOBRADE, é
+obrigatório que se inclua o elemento nome do produtor.
+72 	A NOBRADE tem como pressupostos básicos o respeito aos
+fundos e a descrição multinível, sendo um de seus princípios
+a relação entre descrições.
+73 	É exigência da NOBRADE que todos os níveis de descrição
+sejam implementados.
+74 	Entre as oito áreas de descrição, a de fontes relacionadas
+corresponde àquela em que se registra informação sobre a
+existência de unidades de descrição relacionadas.
+75 	Em 	comparação 	à 	Norma 	Internacional 	de 	Descrição
+Arquivística (ISAD-G), a NOBRADE tem o acréscimo de mais
+uma área: a de controle de descrição.
+A respeito da gestão de documentos, julgue os itens a seguir.
+76 	Mais da metade da área de um edifício para arquivo deve ser
+destinada aos depósitos.
+77 	De acordo com a legislação em vigor, a ABIN deve seguir as
+diretrizes do Sistema Nacional de Arquivos, entre cujas
+finalidades se inclui promover o inter-relacionamento de
+arquivos públicos e privados com vistas ao intercâmbio e à
+integração sistêmica das atividades arquivísticas.
+78 	A gestão de documentos compreende a definição da política
+arquivística, 	a 	designação 	de 	responsabilidades, 	o
+planejamento do programa de gestão e a implantação do
+programa de gestão.
+79 	Para que os documentos de arquivo tenham a capacidade de
+apoiar e registrar a elaboração de políticas e o processo de
+tomada de decisão, é necessário elaborar um quadro de arranjo.
+80 	Um diagnóstico minimalista parte de um estudo de caso, e
+busca construir objetos de pesquisa e propor soluções para os
+problemas detectados.
+81 	Um dos objetivos que se pretende alcançar com um
+diagnóstico 	maximalista 	é 	a 	elaboração 	de 	plano 	de
+classificação e de tabela de temporalidade para a organização.
+82 	O edifício preparado para arquivo deve ser planejado ou
+adaptado 	para 	abrigar 	os 	trabalhos 	relacionados
+exclusivamente 	com 	protocolo, 	organização, 	guarda 	e
+emulação do acervo.
+No que se refere a protocolo, julgue os itens subsequentes.
+83 	O protocolo providencia a tramitação dos documentos de
+arquivo e toma decisões sobre as demandas contidas neles.
+84 	Em um sistema informatizado de gestão arquivística de
+documentos, a atividade de registro de protocolo é realizada no
+procedimento de captura.
+No que concerne às funções arquivísticas, julgue os itens
+subsecutivos.
+85 	Os critérios técnicos de avaliação de documentos digitais
+incluem a possibilidade de leitura dos dados em longo prazo,
+a fragilidade dos suportes, a presença de metadados e os
+recursos materiais, financeiros e humanos disponíveis.
+86 	A preservação de documentos digitais de arquivo independe da
+existência de um repositório digital confiável e pode ser feita
+normalmente em storages provisórios.
+87 	No ambiente digital, os metadados têm papel fundamental na
+função criação.
+88 	A 	função 	aquisição 	de 	documentos 	está 	relacionada
+diretamente com a função classificação, pois a aquisição
+resulta do processo classificatório.
+89 	Classe de documentos é a unidade de base para a elaboração e
+para a aplicação da classificação de documentos.
+
+-- 1 of 4 --
+
+||378_ABIN_014_01N354985|| 	CESPE | CEBRASPE – ABIN – Aplicação: 2018
+A respeito da análise tipológica de documentos e do arranjo em
+arquivos permanentes, julgue os itens que se seguem.
+90 	A ordenação interna do fundo de arquivo obedece ao princípio
+da ordem original.
+91 	A análise tipológica dispensa o conhecimento de sucessivas
+reorganizações que tenham causado supressões ou acréscimos
+de atividades.
+92 	Os 	documentos 	dos 	arquivos 	permanentes 	devem 	ser
+organizados por fundos, ficando a cargo da função descrição
+o levantamento dos assuntos e de outras informações contidas
+nos documentos.
+Julgue os itens seguintes, no que se refere às políticas de acesso aos
+documentos de arquivo, às ontologias e aos metadados.
+93 	Os metadados são dados utilizados para a criação e o uso de
+documentos em sistemas informatizados indisponíveis aos
+usuários.
+94 	O acesso às informações mantidas em arquivo que sejam de
+interesse coletivo é um direito constitucional assegurado aos
+cidadãos pela administração pública.
+95 	O uso de ontologias permite a eliminação de contradições e
+inconsistências 	em 	relação 	a 	termos 	utilizados 	em
+arquivologia.
+Julgue os itens subsequentes, relativos aos sistemas informatizados
+de gestão arquivística de documentos.
+96 	A 	finalidade 	do 	modelo 	de 	requisitos 	para 	sistemas
+informatizados 	de 	gestão 	arquivística 	de 	documentos
+(e-ARQ Brasil) é estabelecer políticas relativas à gestão
+formal de documentos.
+97 	É recomendável que as instituições detentoras de acervos
+permanentes 	realizem 	acordos 	de 	cooperação 	com
+organizações especializadas em tecnologia para elaborar
+projetos de digitalização.
+98 	O Instituto Nacional de Tecnologia da Informação (ITI)
+acumula os papéis de autoridade certificadora raiz e órgão
+credenciador dos demais participantes da cadeia produtiva, o
+qual viabiliza a emissão de certificados digitais; as atribuições
+de supervisão e auditoria de processos são responsabilidade de
+auditorias independentes.
+99 	Redução de espaços físicos e ganhos de produtividade são
+vantagens da geração de documentos arquivísticos digitais,
+mas dificultam o acesso aos estoques de informações e a
+distribuição de dados e informações.
+100 Para fins de preservação digital, as cadeias de bits podem ser
+alteradas devido às conversões de formato, desde que os
+componentes digitais continuem a representar os documentos
+originais.
+Com relação à gestão da informação e à ética do profissional de
+arquivo, julgue os próximos itens.
+101 Visando manter a isonomia dos procedimentos arquivísticos,
+é vedado ao arquivista desenvolver trabalhos de cooperação
+técnica com profissionais de áreas afins.
+102 A gestão da informação favorece a celeridade ao acesso a
+documentos mantidos em arquivos, a otimização de atividades
+e contribui para a excelência no atendimento.
+103 A gestão da informação arquivística de uma instituição
+pertencente à administração pública está limitada à manutenção
+dos documentos da instituição que serão enviados ao Arquivo
+Nacional.
+104 É inerente à ética do profissional de arquivo zelar pelo
+princípio da proveniência para manter a integridade dos
+documentos mantidos em arquivo.
+A respeito do desenvolvimento de coleções; políticas de seleções
+e de aquisição; e avaliação de seleções, julgue os itens que se
+seguem.
+105 O processo de avaliar as coleções do acervo caracteriza um
+método de circulação.
+106 A 	coordenação 	de 	atividades 	de 	desenvolvimento 	e
+gerenciamento de coleções em sintonia com outras bibliotecas
+permite que modelos externos de desenvolvimento de coleções
+sirvam como inspiração.
+107 Na implantação de um plano de coleções, deve-se considerar
+que a circulação é a atividade principal da unidade de
+informação; sendo a aquisição, nesse processo, uma atividade
+secundária.
+108 Mesmo que o administrador da biblioteca não seja um
+bibliotecário de formação, a ele cabe determinar a política de
+seleção da coleção; nessa situação, ao bibliotecário compete
+tão somente executar a política física do acervo.
+Em relação a pesquisa, desenvolvimento e avaliação de coleções,
+julgue os itens a seguir.
+109 Segundo critério estabelecido pelo Ministério da Educação,
+para alcançar o conceito cinco na avaliação da coleção de
+instituição de ensino superior, um requisito é que o acervo da
+bibliografia básica tenha, no mínimo, três títulos por unidade
+curricular de todos os cursos que efetivamente utilizam o
+acervo na instituição.
+110 Nas bibliotecas especializadas, mas de pequeno porte quando
+comparadas às bibliotecas universitárias, o tamanho do acervo
+compromete a exploração da coleção: coleções pequenas
+nunca cobrem de maneira exaustiva os assuntos.
+111 Segundo Peggy Johnson, na política de desenvolvimento de
+coleções, a expressão “seleção”, muito usada no passado, foi
+substituída por “desenvolvendo coleções”.
+
+-- 2 of 4 --
+
+||378_ABIN_014_01N354985|| 	CESPE | CEBRASPE – ABIN – Aplicação: 2018
+Acerca de documentação e informação, julgue os próximos itens.
+112 O Tratado de Documentação é um dos primeiros textos da
+ciência da informação (CI).
+113 A tabela de áreas de conhecimento/avaliação do Conselho
+Nacional de Desenvolvimento Científico e Tecnológico
+(CNPq) inclui a área comunicação e informação, que, por sua
+vez, 	abrange 	aspectos 	e 	estudos 	da 	documentação 	e
+informação.
+114 O campo da documentação e informação consiste em um
+conjunto de normativas que regulam a organização de acervos
+de bibliotecas segundo códigos de catalogação e classificação,
+além de outros instrumentos técnicos.
+115 O vocábulo documentação é um neologismo criado por Paul
+Otlet.
+No que concerne a processos e técnicas de tratamento da
+informação, físicos ou digitais, julgue os itens subsequentes.
+116 Na catalogação de um suporte CD-ROM, um compact disc,
+com um folheto adicional, devem constar as seguintes
+descrições: [compact disc], como designação geral do material
+(DGM); e “1 CD-ROM + 1 folheto”, na área de descrição
+física do material.
+117 Os elementos descritivos da área de publicação incluem o lugar
+da publicação/distribuição, o número da edição, o nome do
+editor/distribuidor, a data da publicação/distribuição e o lugar
+da fabricação.
+118 O sistema de Classificação Decimal Universal (CDU) adota
+uma linguagem científica, pois, além de servir para organizar
+documentos, sistematiza os fenômenos do mundo natural.
+119 No processo de recuperação de informação, os resultados de
+uso das linguagens documentárias podem ser medidos por dois
+coeficientes: coeficiente de precisão, que é a relação entre o
+número de documentos relevantes recuperados e o número
+total de documentos relevantes existentes na coleção; e
+coeficiente de revocação, ou seja, a relação entre o número de
+documentos relevantes recuperados e o número total de
+documentos recuperados.
+De acordo com a 2.ª edição do Padrão Internacional da CDU, em
+Língua Portuguesa, julgue os itens a seguir, considerando que os
+números de cada assunto estão corretamente associados na
+confecção de uma notação. Observe que as aspas são usadas apenas
+para destacar as notações e os assuntos, sem nenhum significado
+notacional.
+120 Se for definida uma ordem de apresentação entre os assuntos,
+existe uma irreversibilidade. Por exemplo, sendo impossível a
+inversão entre os assuntos Política (32) e Biblioteconomia
+(02), a resultante seria “32:02”, e não “02:32”.
+121 A notação “53+913” refere-se ao título “Física e Geografia
+Regional”.
+122 A notação “53/55” se refere ao título “Física, Química e
+Geociências”: “Física” está representado pelo número “53”,
+“Química”, pelo “54”, e “Geociências”, pelo “55”, ou seja,
+existe uma extensão consecutiva.
+123 A 	relação 	simples 	e 	direta 	entre 	Matemática 	(51) 	e
+Astronomia (52) resulta na notação “51:52”.
+A respeito das normas brasileiras (NBR) estabelecidas pela
+Associação Brasileira de Normas Técnicas (ABNT), julgue os
+seguintes itens.
+124 A ABNT NBR 6023 refere-se a procedimentos de resumos.
+125 A ABNT NBR 6024 regulamenta procedimentos de sumários.
+126 A ABNT NBR 6027 trata de procedimentos de numeração
+progressiva das seções de um documento.
+127 Na ABNT NBR 14724, o uso do AACR (Anglo-American
+Cataloguing Rules) é informado na produção da ficha
+catalográfica do documento.
+Os estudos de usuários objetivam auxiliar no dimensionamento e na
+melhoraria da interface entre o sistema de informação e a
+comunidade de usuários à qual esse sistema serve, oferecendo uma
+visão mais ampla dos problemas e tendências dos usuários ao
+interagirem com o sistema. Considerando essas informações e os
+múltiplos aspectos a elas relacionados, julgue os itens a seguir.
+128 Define-se usuário como indivíduo ou grupo cliente de uma
+organização ou departamento e que manifesta, através de
+consultas, 	os 	seus 	requerimentos 	ou 	necessidades 	de
+informação.
+129 No contexto atual, os sistemas de informação focalizam os
+profissionais envolvidos no processo informacional e a
+facilitação do uso efetivo das informações, relegando ao
+usuário o papel de receptor no processo de comunicação.
+130 As necessidades de informação de um usuário podem ser
+identificadas pelos fatores que as influenciam, como, por
+exemplo, as condições socioeconômicas do usuário, o modo
+como ele usará a informação, além de sua motivação e de sua
+profissão.
+131 Os estudos de usuários, canais de comunicação que aproximam
+a biblioteca da comunidade em que ela está inserida, embora
+tracem o perfil do usuário, não possibilitam a previsão para a
+demanda ou a mudança da demanda dos produtos ou serviços
+que a biblioteca deve oferecer.
+132 A realização de estudos de usuários não ajuda na redistribuição
+de recursos financeiros e humanos na unidade informacional.
+A respeito do serviço de referência, ferramenta que facilita o acesso
+à informação e que pode auxiliar o utilizador a localizar a
+informação procurada, julgue os itens seguintes.
+133 O serviço de referência virtual diz respeito à disponibilização
+do serviço de referência por meio de tecnologia de informação,
+de modo a agregar valor tanto para as bibliotecas quanto para
+os usuários que interagem por meio dessa ferramenta.
+134 A necessidade negociada é um nível de necessidade que
+permite ao usuário representar o problema de modo inteligível,
+sem a necessidade da mediação para identificar onde está a
+informação.
+135 Os serviços de alertas são criados para identificar os conteúdos
+mais recentes publicados nas bases de dados sobre a temática
+abordada pelos usuários de uma instituição ou de grupos
+específicos, e sua meta é o monitoramento das bases para
+evidenciar o que há de mais novo.
+136 Muitas pesquisas retornam, em seus resultados, as referências
+sobre o tema, sendo cada referência o conjunto de informações
+agrupadas em elementos básicos, retirados de um documento
+e que permitem a sua identificação no todo ou em parte.
+137 Como o marketing consiste em uma operação de relações
+públicas, a utilização das técnicas de marketing no serviço de
+referência é suficiente para garantir a promoção desse serviço.
+
+-- 3 of 4 --
+
+||378_ABIN_014_01N354985|| 	CESPE | CEBRASPE – ABIN – Aplicação: 2018
+138 A pesquisa de periódicos assinados e disponibilizados pela
+instituição por meio de uma base de dados automatizada com
+textos completos tanto em meio eletrônico como nos links de
+acesso tem reduzido a procura pelo bibliotecário para o auxílio
+ao usuário na busca de documentos.
+Sabendo que a ação de transferência da informação engloba
+representação, recuperação e comunicação, com ênfase maior à
+representação, julgue os itens a seguir.
+139 O MARC, enquanto padrão de metadados, possui os elementos
+estrutura, designação de conteúdo e conteúdos dos dados,
+sendo a estrutura o que possibilita a interoperabilidade, uma
+vez que ela possui implementação de padrões internacionais
+como a ANSI Z39.50: protocolo para comunicação de dados
+entre sistemas de informação.
+140 No campo específico da biblioteconomia, o ato de organizar é
+representado nos processos de catalogação, indexação e
+classificação, cuja finalidade, a posteriori, é viabilizar os
+mecanismos de preservação da informação.
+141 Define-se banco de dados como um conjunto de informações
+específicas em meio eletrônico, com enorme capacidade de
+armazenamento 	e 	complexidade 	determinada 	pelas
+características do mundo real nele modeladas.
+142 Com o crescimento contínuo das áreas do conhecimento e o
+advento de novas tecnologias, é inevitável a adoção da
+automação 	nos 	processos 	de 	uma 	biblioteca, 	para 	a
+recuperação da informação e sua disseminação de forma rápida
+e precisa.
+143 A escolha do software para a utilização do gerenciamento das
+atividades da biblioteca pode ser considerada de baixa
+relevância para a automação, uma vez que há diversos tipos de
+software para automação disponíveis no mercado, tanto
+gratuitos quanto pagos.
+144 O sistema WinISIS é um exemplo de freeware, software
+gratuito disponibilizado sem qualquer custo de aquisição, com
+licença e código-fonte liberados, e que permite aos seus
+usuários executar as modificações necessárias para adequá-lo
+às necessidades da biblioteca.
+Considerando o processo evolutivo das bibliotecas, que passaram
+a diversificar o tipo de material que reúnem e a forma como
+disseminam a informação, julgue os itens seguintes.
+145 As leis de Lotka, Bradford e Conspectus referem-se aos
+esforços para quantificar os produtos da atividade científica.
+146 No campo das bibliotecas, a Internet motivou uma ampla
+difusão dos OPACS (online public access catalog), que são
+catálogos de bibliotecas disponíveis em linha para consulta
+exclusiva da comunidade em que está inserida.
+147 Uma biblioteca virtual é aquela capaz de proporcionar aos seus
+usuários os serviços de uma biblioteca tradicional, o que inclui
+o acesso aos textos dos documentos eletrônicos.
+148 Denomina-se biblioteca virtual o serviço que disponibiliza
+links e vínculos aos sítios onde se podem encontrar outros
+sítios e que permite, ainda, o cadastro eletrônico do usuário.
+149 A biblioteca digital é aquela que, além do catálogo em linha,
+possui os documentos de seu acervo armazenados de forma
+digital para leitura na tela ou download.
+150 Mesmo com uma infinidade de informações desorganizadas e
+sem credibilidade, a Internet é uma fonte de informação tanto
+para o dia a dia quanto para subsidiar pesquisas científicas,
+podendo, portanto, a Internet ser considerada uma extensão da
+biblioteca, o que torna ainda mais necessário que profissionais
+saibam localizar e avaliar essas fontes de informação.
+Espaço livre
+
+-- 4 of 4 --
+

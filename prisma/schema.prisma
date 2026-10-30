@@ -1,0 +1,274 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  nome      String
+  email     String   @unique
+  senhaHash String
+  createdAt DateTime @default(now())
+
+  alvos     Alvo[]
+  respostas Resposta[]
+  topicos   ProgressoTopico[]
+  cargos    ProgressoCargo[]
+  perfil    Perfil?
+}
+
+model Concurso {
+  id                  String    @id @default(cuid())
+  orgao               String
+  titulo              String
+  uf                  String    @default("BR")
+  status              String    @default("aberto")
+  fonteUrl            String    @unique
+  editalUrl           String?
+  banca               String?
+  inscricoesAte       DateTime?
+  verificado          Boolean   @default(false)
+  verificadoEm        DateTime?
+  fonteConfirmacaoUrl String?
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+
+  cargos Cargo[]
+}
+
+model Cargo {
+  id           String  @id @default(cuid())
+  concursoId   String
+  nome         String
+  escolaridade String?
+  curso        String?
+  area         String  @default("outras")
+  vagas        Int?
+  salario      String?
+
+  concurso Concurso   @relation(fields: [concursoId], references: [id], onDelete: Cascade)
+  alvos    Alvo[]
+  temas    Tema[]
+  questoes Questao[]
+
+  @@unique([concursoId, nome])
+  @@index([area])
+}
+
+model Alvo {
+  id        String   @id @default(cuid())
+  userId    String
+  cargoId   String
+  createdAt DateTime @default(now())
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cargo Cargo @relation(fields: [cargoId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, cargoId])
+}
+
+model Tema {
+  id         String   @id @default(cuid())
+  cargoId    String
+  disciplina String
+  topicos    String // JSON string[]
+  extraidoEm DateTime @default(now())
+
+  cargo Cargo @relation(fields: [cargoId], references: [id], onDelete: Cascade)
+
+  @@index([cargoId])
+}
+
+model SyncLog {
+  id         String    @id @default(cuid())
+  fonte      String
+  iniciadoEm DateTime  @default(now())
+  fimEm      DateTime?
+  status     String    @default("rodando")
+  novos      Int       @default(0)
+  erros      String?
+}
+
+model Questao {
+  id           String   @id @default(cuid())
+  cargoId      String
+  disciplina   String
+  topico       String
+  enunciado    String
+  alternativas String // JSON string[]
+  correta      Int
+  explicacao   String
+  dificuldade  Int      @default(1)
+  geradaPorIA  Boolean  @default(true)
+  createdAt    DateTime @default(now())
+
+  cargo     Cargo      @relation(fields: [cargoId], references: [id], onDelete: Cascade)
+  respostas Resposta[]
+
+  @@index([cargoId, topico])
+}
+
+model Resposta {
+  id             String   @id @default(cuid())
+  userId         String
+  questaoId      String?
+  questaoProvaId String?
+  cargoId        String?
+  escolhida      Int
+  acertou        Boolean
+  xpGanho        Int      @default(0)
+  createdAt      DateTime @default(now())
+
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questao      Questao?      @relation(fields: [questaoId], references: [id], onDelete: Cascade)
+  questaoProva QuestaoProva? @relation(fields: [questaoProvaId], references: [id], onDelete: Cascade)
+
+  @@index([userId, questaoId])
+  @@index([userId, questaoProvaId])
+  @@index([userId, cargoId])
+}
+
+model ProgressoTopico {
+  id         String @id @default(cuid())
+  userId     String
+  cargoId    String
+  disciplina String
+  topico     String
+  tentativas Int    @default(0)
+  recentes   String @default("[]") // JSON number[] (1 acerto / 0 erro), últimas respostas únicas
+  dominio    Float  @default(0)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, cargoId, disciplina, topico])
+}
+
+model ProgressoCargo {
+  id           String @id @default(cuid())
+  userId       String
+  cargoId      String
+  xp           Int    @default(0)
+  proficiencia Float  @default(0)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, cargoId])
+}
+
+model Perfil {
+  id             String    @id @default(cuid())
+  userId         String    @unique
+  xpTotal        Int       @default(0)
+  nivel          Int       @default(1)
+  streakDias     Int       @default(0)
+  ultimoEstudoEm DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model EventoBanca {
+  id         String   @id @default(cuid())
+  banca      String
+  chave      String // identificador do evento no site da banca (ex.: ABIN_17)
+  nome       String
+  ano        Int?
+  orgaoChave String
+  detalhado  Boolean  @default(false)
+  casado     Boolean  @default(false) // órgão coincide com algum concurso aberto
+  temTI      Boolean  @default(false)
+  editalArquivo String? // edital de abertura (nome do arquivo no CDN)
+  conteudoLido  Boolean @default(false)
+  createdAt  DateTime @default(now())
+
+  provas Prova[]
+
+  @@unique([banca, chave])
+}
+
+model Prova {
+  id            String   @id @default(cuid())
+  eventoId      String?
+  orgao         String
+  orgaoChave    String
+  banca         String
+  ano           Int?
+  cargoNome     String
+  area          String? // null = conhecimentos gerais / sem área definida
+  provaUrl      String   @unique
+  gabaritoUrl   String?
+  origem        String   @default("banca") // banca | manual
+  status        String   @default("pendente") // pendente | processando | ok | erro
+  erro          String?
+  totalQuestoes Int      @default(0)
+  ti            Boolean  @default(false)
+  createdAt     DateTime @default(now())
+
+  evento    EventoBanca?   @relation(fields: [eventoId], references: [id], onDelete: SetNull)
+  questoes  QuestaoProva[]
+
+  @@index([status])
+  @@index([orgaoChave])
+}
+
+model QuestaoProva {
+  id           String  @id @default(cuid())
+  provaId      String
+  numero       Int
+  disciplina   String
+  topico       String
+  enunciado    String
+  alternativas String // JSON string[]
+  correta      Int? // null quando anulada
+  tipo         String // certo_errado | multipla
+  anulada      Boolean @default(false)
+  competencia     String? // id da taxonomia (ex.: ti.bd.sql)
+  dependeDeApoio  Boolean @default(false) // exige figura/texto-base que não vem no enunciado
+  hash            String? // enunciado normalizado, para eliminar duplicatas
+
+  prova     Prova      @relation(fields: [provaId], references: [id], onDelete: Cascade)
+  respostas Resposta[]
+
+  @@unique([provaId, numero])
+  @@index([competencia])
+  @@index([hash])
+}
+
+model ConteudoEdital {
+  id         String   @id @default(cuid())
+  banca      String
+  eventoChave String
+  orgao      String
+  ano        Int?
+  cargoNome  String
+  disciplina String
+  itens      String // JSON string[]
+  createdAt  DateTime @default(now())
+
+  @@unique([banca, eventoChave, cargoNome, disciplina])
+  @@index([cargoNome])
+}
+
+/// Cache das listagens de provas do PCI Concursos (só metadados e link da página; nada é baixado).
+model ProvaPci {
+  id        String
+  slug      String
+  url       String
+  cargo     String
+  ano       Int?
+  orgao     String
+  banca     String
+  buscadoEm DateTime @default(now())
+
+  @@id([id, slug])
+  @@index([slug])
+}
+
+model SecaoPci {
+  slug      String   @id
+  existe    Boolean
+  buscadoEm DateTime @default(now())
+}

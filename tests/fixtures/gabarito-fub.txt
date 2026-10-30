@@ -1,0 +1,43 @@
+MINISTÉRIO DA EDUCAÇÃO
+FUNDAÇÃO UNIVERSIDADE DE BRASÍLIA
+CONCURSO PÚBLICO PARA O PROVIMENTO DE VAGAS E A FORMAÇÃO DE CADASTRO EM CARGOS DE
+NÍVEL SUPERIOR E DE NÍVEL INTERMEDIÁRIO
+EDITAL Nº 1 – FUB, DE 3 DE ABRIL DE 2025
+Aplicação: 29/06/2025
+1 2 	3 	4 	5 	6 	7 	8 	9 10 11 12 13 14 15 16 17 18 19 20
+E C 	E 	E 	E 	C 	E 	E 	C 	C 	X 	E 	C 	E C C 	E E E 	C
+21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+E C 	E 	E 	C 	E 	C 	C 	E 	C 	C 	E 	C 	E E E 	E E C 	C
+41 42 43 44 45 46 47 48 49 50 	0 	0 	0 	0 0 0 	0 0 0 	0
+C E 	E 	E 	C 	C 	E 	E 	C 	E 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+0 0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 0 0 	0 0 0 	0
+Item
+CONHECIMENTOS BÁSICOS PARA O CARGO 18
+088_FUB_CB4_01
+0
+GABARITOS OFICIAIS DEFINITIVOS
+0
+Obs.: ( X ) item anulado.
+Item
+Gabarito
+Gabarito
+Item
+Gabarito
+
+-- 1 of 1 --
+

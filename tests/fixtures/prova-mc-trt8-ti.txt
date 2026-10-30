@@ -1,0 +1,649 @@
+CEBRASPE – TRT 8.ª REGIÃO – Edital: 2022
+-- CONHECIMENTOS ESPECÍFICOS --
+Questão 21
+No protocolo OAuth2, a concessão de autorização que é obtida
+por meio de um servidor intermediário entre o cliente e o
+proprietário do recurso é do tipo
+A access token.
+B authorization code.
+C resource owner password credentials.
+D client credentials.
+E implicit.
+Questão 22
+Em uma API RESTful, cada solicitação deve conter todos os
+dados necessários ao seu atendimento para não depender de
+informações armazenadas em outras sessões, o que caracteriza
+uma restrição de
+A cache.
+B arquitetura cliente-servidor.
+C interface uniforme.
+D sistema de camadas.
+E comunicação stateless.
+Questão 23
+Assinale a opção que apresenta a anotação que define no
+framework Spring uma classe como pertencente à camada de
+persistência.
+A @Repository
+B @Component
+C @Service
+D @Transient
+E @Autowired
+Questão 24
+Em Kubernets, o componente que gerencia os pods que foram
+criados e que está sem nenhum nó atribuído é o
+A kube-scheduler.
+B kube-apiserver.
+C etcd.
+D kube-controller-manager.
+E cloud-controller-manager.
+Questão 25
+JavaScript
+A é derivada da linguagem Java, das funções de primeira classe
+de Scheme e da herança baseada em protótipos de Self.
+B é uma linguagem de alto nível, dinâmica, compilada e tipada,
+conveniente para estilos de programação orientados a objetos.
+C não 	permite 	fazer 	scripts 	do 	conteúdo 	HTML 	e 	da
+apresentação CSS de documentos em navegadores Web,
+entretanto, 	permite 	definir 	o 	comportamento 	desses
+documentos com rotinas de tratamento de evento.
+D define uma API mínima para trabalhar com texto, arrays,
+datas 	e 	expressões 	regulares, 	conexão 	em 	rede,
+armazenamento de dados e gráficos.
+E permite representar valores sequenciais iguais ou maiores que
+2 por meio de uma variável declarada como count += 2.
+Questão 26
+Na linguagem de programação Python, as funções
+A retornam somente objetos.
+B não aceitam parâmetros opcionais (com defaults).
+C não podem ter suas propriedades alteradas.
+D não aceitam doc strings.
+E aceitam que os parâmetros sejam passados com nome, não
+importando a ordem em que os parâmetros foram passados.
+Questão 27
+O widget básico do Flutter que permite criar leiautes flexíveis nas
+direções horizontal e vertical, com design de objetos baseado no
+modelo de leiaute flexbox da Web é o
+A Text.
+B Row,Column.
+C Stack.
+D Expanded.
+E Conteiner.
+Questão 28
+Com relação às ferramentas CircleCI e Jenkins, assinale a opção
+correta.
+A No que tange à segurança, o Jenkins possui camadas
+adicionais 	de 	segurança 	que 	protegem 	o 	código-fonte,
+variáveis ambientais e saídas.
+B O Jenkins suporta maior quantidade de CPU e RAM para
+trabalhos mais complexos do que o CircleCI.
+C O CircleCI implementa uma única camada de segurança em
+torno da frota de CI (integração contínua), com criação
+manual de segurança adicional.
+D O Jenkins suporta adicionar usuários, por intermédio da
+autenticação VCS, utilizando diretamente a interface do
+usuário.
+E O CircleCI utiliza-se de dependências do cache e camadas do
+Docker para melhorar o desempenho e acelerar o tempo de
+construção.
+Questão 29
+No contexto de DevOps e DevSecOps, o Proxy reverso
+A permite que diferentes servidores e serviços apareçam como
+se fossem uma única unidade, ocultando servidores atrás do
+mesmo nome.
+B não permite o balanceamento de carga para distribuir o
+tráfego de entrada, uma vez que essa tarefa é realizada
+nativamente por um firewall.
+C é um servidor que reside na frente de um ou mais clientes,
+interceptando solicitações internas e externas de servidores
+web.
+D garante que os clientes se comuniquem diretamente com um
+servidor de origem na Web.
+E não permite criptografar e descriptografar comunicações SSL
+(ou TLS) para cada cliente.
+Questão 30
+A respeito de testes automatizados, no contexto de DevOps e
+DevSecOps, assinale a opção correta.
+A Em um teste unitário, os métodos da classe sendo testada e
+suas dependências podem ter relação com recursos externos.
+B Os bugs são detectados no final do ciclo de desenvolvimento,
+o que pode aumentar o tempo na criação de novos produtos.
+C Os testes unitários são testes de caixa preta com cada função
+que compõe o software.
+D O TDD (Test Driven Development) eleva o nível dos testes
+unitários e tem como característica criar a classe de testes
+antes da classe de produção, de forma que os testes guiem o
+código a ser implementado.
+E Os testes de integração são caracterizados pela verificação de
+partes internas do sistema, que se inter-relacionam entre si,
+conforme definido pelos clientes.
+
+-- 1 of 6 --
+
+CEBRASPE – TRT 8.ª REGIÃO – Edital: 2022
+Questão 31
+Quanto à avaliação de modelos preditivos, assinale a opção
+correta.
+A A taxa de acerto da métrica de classificação é o complemento
+da taxa de erro; valores próximos de 0 são considerados
+melhores.
+B O gráfico ROC é tridimensional, plotado em um espaço
+chamado de espaço ROC, com eixos X, Y e Z.
+C As duas medidas de erro mais comumente utilizadas na
+métrica de regressão são o potencial erro definido e a
+distância média, sempre utilizando números negativos.
+D Nas métricas de classificação, a taxa de erro varia entre 0 e 1,
+sendo os valores próximos ao extremo 0 melhores.
+E Uma 	forma 	de 	avaliar 	classificadores 	em 	problemas
+complexos, ou seja, que possuem mais de duas classes, é com
+o uso das curvas ROC (Receiving Operating Characteristics).
+Questão 32
+Acerca de modelos preditivos e descritivos, assinale a opção
+correta.
+A Com um modelo não supervisionado consegue-se construir
+um estimador a partir de exemplos rotulados.
+B Um modelo supervisionado refere-se à identificação de
+informações relevantes nos dados sem a presença de um
+elemento externo para orientar o aprendizado.
+C Com o uso de técnicas do modelo não supervisionado,
+consegue-se prever com exatidão o resultado de uma eleição
+utilizando pesquisas como parâmetro.
+D A 	análise 	de 	agrupamento 	pertence 	ao 	paradigma 	de
+aprendizado não supervisionado, em que o aprendizado é
+dirigido aos dados, não requerendo conhecimento prévio
+sobre as suas classes ou categorias.
+E Tendo como objetivo encontrar padrões ou tendências para
+auxiliar o entendimento dos dados, deve-se usar técnicas do
+modelo supervisionado.
+Questão 33
+No módulo NumPy, utilizado no aprendizado de máquina do
+Python 3,
+A o método deviation( ) permite encontrar o desvio padrão
+em uma matriz.
+B o método percentile( ) permite encontrar o percentil em
+uma matriz.
+C o método half( ) permite calcular a média em uma matriz.
+D o método mean( ) permite encontrar a mediana em uma
+matriz.
+E a propriedade type( ) retorna o tipo de dados do array de
+uma matriz.
+Questão 34
+Um 	administrador 	de 	rede 	precisa 	modificar 	as
+permissões na lista de controle de acesso, utilizando o Red Hat
+Enterprise Linux 8, para o arquivo TRT8 de propriedade do
+usuário root, que, por sua vez, pertence ao grupo root. Nesse
+caso, apenas Paulo deve ter permissão rw- e os demais usuários
+devem ter permissão r--.
+Com base nessa situação hipotética, assinale a opção que indica o
+comando correto para executar a configuração referida.
+A # chmod rw- paulo TRT8
+B # getfacl TRT8 - m u:paulo rw-
+C # setfacl - m u:paulo:rw- TRT8
+D # setfacl TRT8 - m u:paulo rw-
+E # chmod paulo 640 TRT8
+Questão 35
+O Windows Admin Center do Windows Server 2019
+A é um poderoso sistema de gerenciamento e monitoramento
+para datacenters.
+B fornece alertas e notificações de monitoramento robustos.
+C gerencia sistemas em escala.
+D é uma ferramenta de gerenciamento gratuita, baseada em
+navegador, para servidores e clusters únicos.
+E permite a implantação do sistema a partir do bare metal.
+Questão 36
+Em relação aos grupos de segurança padrão do Active Directory,
+assinale a opção correta.
+A O Active Directory tem duas formas de entidades de
+segurança comuns: as contas de super usuário e as contas de
+grupos.
+B Algumas permissões definidas em objetos de domínio são
+atribuídas automaticamente para permitir vários níveis de
+acesso a grupos de segurança padrão, como, por exemplo, o
+grupo operadores de conta.
+C Os tipos de grupos do Active Directory são grupos de serviço
+e grupos de administradores.
+D As responsabilidades administrativas são separadas em dois
+tipos de administradores: os administradores de usuários e os
+administradores de grupos.
+E Trabalhar com usuários individuais em vez de grupos ajuda a
+simplificar a manutenção e a administração da rede.
+Questão 37
+Em um banco de dados DNS, o registro que permite a criação de
+nomes alternativos para um domínio é o
+A SPF.
+B AAAA.
+C CNAME.
+D SRV.
+E SOA.
+Questão 38
+A forma de operação do DHCP em que o endereço IP fica
+vinculado ao endereço MAC do equipamento, ou seja, o
+equipamento vai operar com um endereço de IP fixo, é a
+A dinâmica.
+B designada.
+C manual.
+D limitada.
+E automática.
+Questão 39
+Mecanismos 	de 	pesquisa 	e 	de 	visualização 	de 	dados 	de
+aplicações 	web 	são 	fornecidos, 	respectivamente, 	pelas
+ferramentas
+A Elasticsearch e Zabbix.
+B Elasticsearch e Prometheus.
+C Kibana e Prometheus.
+D Prometheus e Zabbix.
+E Elasticsearch e Kibana.
+Questão 40
+O cabeçalho do protocolo HTTP que contém o DNS do servidor
+é o
+A host.
+B authorization.
+C referer.
+D location.
+E server.
+
+-- 2 of 6 --
+
+CEBRASPE – TRT 8.ª REGIÃO – Edital: 2022
+Questão 41
+A característica do Hyper-V que permite flexibilidade no uso de
+armazenamento 	compartilhado 	entre 	máquinas 	virtuais 	é
+conhecida como
+A live migration.
+B cluster shared volume.
+C compatibilidade de processador.
+D aprimoramento no desempenho de redes virtuais.
+E hot add storage.
+Questão 42
+No RDS (Remote Desktop Services), o estabelecimento de um
+túnel SSL criptografado entre o dispositivo do usuário final e o
+servidor de gateway faz parte
+A da autenticação multifator.
+B da alta disponibilidade.
+C do armazenamento de dados seguros.
+D da aceleração de GPU.
+E do acesso de qualquer lugar.
+Questão 43
+Um analista de determinado TRT foi instado a realizar um
+planejamento de migração da carga de trabalho do ambiente local
+do tribunal para um ambiente de nuvem pública, como AWS,
+Azure ou Google Cloud. Um dos requisitos dessa migração era
+que as cargas de trabalho a serem migradas fossem modificadas o
+mínimo possível, apenas o bastante para operarem no ambiente
+de destino.
+Com base nas informações precedentes e considerando-se que a
+carga de trabalho mencionada na situação hipotética apresentada
+pode operar no ambiente de destino (nuvem) no estado em que se
+encontra e(ou) com pouca necessidade de mudança, não sendo
+possível refatorá-la, é correto afirmar que a estratégia mais
+adequada para a migração dessa carga de trabalho é denominada
+A lift-and-shift.
+B improve-and-move.
+C rip-and-replace.
+D replace.
+E build e buy.
+Questão 44
+Durante o planejamento de configuração das aplicações
+na Google Cloud, foi solicitado que o analista de determinado
+TRT configurasse recurso do framework de arquitetura de
+segurança da informação, com vista a conceder às pessoas certas
+o acesso aos recursos ideais pelos motivos mais coerentes, por
+meio do acesso granular, conforme o princípio do privilégio
+mínimo.
+Nessa situação hipotética, para realizar o que lhe foi solicitado, o
+analista deverá utilizar o recurso
+A chronicle.
+B identity and access management.
+C multifactor authentication.
+D cloud data loss prevention.
+E cloud identity.
+Questão 45
+Considere o modelo precedente, em que os campos IdFilme,
+IdAtor, 	IdTipoAtuacao 	e 	IdCategoria 	são 	chaves
+primárias em suas respectivas tabelas, como referência.
+Considere ainda que
+FK descreve que o campo é uma foreign key;
+AI descreve que o campo é auto incremente;
+NN descreve que o campo é not null.
+A partir dessas informações, assinale a opção que apresenta o
+correto script SQL para criação desta tabela.
+A CREATE TABLE Categoria (
+IdCategoria INT NOT NULL AUTO_INCREMENT,
+DeCategoria VARCHAR(45) NULL,
+PRIMARY KEY (IdCategoria),
+FOREIGN KEY (IdCategoria)
+REFERENCES Filme (IdCategoria)
+) ENGINE = InnoDB;
+B CREATE TABLE Filme (
+IdFilme INT NOT NULL AUTO_INCREMENT,
+NoTitulo VARCHAR(45) NOT NULL,
+DeCategoria VARCHAR(45) NULL,
+IdCategoria INT NOT NULL,
+PRIMARY KEY (IdFilme, IdCategoria)
+) ENGINE = InnoDB;
+C CREATE TABLE Ator (
+IdAtor 	INT 	NOT 	NULL 	PRIMARY 	KEY
+AUTO_INCREMENT,
+NoRealAtor VARCHAR(45) NOT NULL,
+DtNascimento DATE NULL,
+FOREIGN KEY (IdAtor)
+REFERENCES Ator_Filme (IdAtor)
+) ENGINE = InnoDB;
+D CREATE TABLE Ator_Filme (
+IdAtor INT NOT NULL,
+IdFilme INT NOT NULL,
+IdTipoAtuacao INT NULL,
+PRIMARY KEY (IdAtor, IdFilme),
+FOREIGN KEY (IdAtor)
+REFERENCES Ator (IdAtor),
+FOREIGN KEY (IdFilme)
+REFERENCES Filme (IdFilme),
+FOREIGN KEY (IdTipoAtuacao)
+REFERENCES TipoAtuacao (IdTipoAtuacao)
+) ENGINE = InnoDB;
+E CREATE TABLE TipoAtuacao (
+IdTipoAtuacao 	INT 	NOT 	NULL 	AUTO_INCREMENT
+PRIMARY KEY,
+DeTipoAtuacao VARCHAR(45) NULL,
+FOREIGN KEY (IdTipoAtuacao)
+REFERENCES Ator_Filme (IdTipoAtuacao)
+) ENGINE = InnoDB;
+
+-- 3 of 6 --
+
+CEBRASPE – TRT 8.ª REGIÃO – Edital: 2022
+Questão 46
+Considere 	os 	seguintes 	comandos 	SQL 	executados 	no
+PostgreSQL 14.
+1 	CREATE TABLE my_table(n int);
+2 	INSERT INTO my_table VALUES (1);
+3 	BEGIN;
+4 	INSERT INTO my_table VALUES (2);
+5 	SAVEPOINT my_savepoint;
+6 	INSERT INTO my_table VALUES (3);
+7 	ROLLBACK TO my_savepoint;
+8 	ROLLBACK;
+9 	SELECT * FROM my_table;
+Considere ainda que os números apresentados apenas mostram o
+número da linha em que se encontra cada comando e que todos
+os comandos, em todas as linhas, serão executados na sequência
+apresentada, exceto quando explicitado o contrário.
+A partir das informações anteriores, assinale a opção correta.
+A Caso seja comentada somente a linha 7, o resultado será o
+apresentado a seguir.
+1
+B Caso seja comentada somente a linha 8, o resultado será o
+apresentado a seguir.
+1
+2
+C Caso seja comentada somente a linha 8, o resultado será o
+apresentado a seguir.
+2
+D Caso seja comentada somente a linha 7, o resultado será o
+apresentado a seguir.
+1
+2
+E Caso seja comentada somente a linha 7, o resultado será o
+apresentado a seguir.
+null
+Questão 47
+Foi solicitada a um analista do TRT, através de chamado
+técnico, uma análise de desempenho no MongoDB, com o
+objetivo de investigar e verificar se o banco de dados estaria
+operando com desempenho aquém do esperado e de forma
+degradada.
+Considerando essa situação hipotética, assinale a opção que
+indica o componente do MongoDB, a ser investigado pelo
+analista, que permita a coleta de informações detalhadas sobre as
+operações executadas em certa instância MongoDB.
+A Database Profiling
+B MongoDB Aggregation Pipeline
+C Shards
+D Mongodump
+E MongoDB Compass
+Questão 48
+Acerca do Container Database (CDB) e do pluggable databases
+(PDB) na arquitetura Multitenant do Oracle 19, é correto afirmar
+que
+A um Seed PDB se destina a oferecer suporte a um aplicativo
+ou contêiner de aplicativos.
+B um PDB é um conjunto criado pelo usuário de esquemas e
+estruturas relacionadas que aparecem logicamente para um
+aplicativo cliente como um banco de dados separado.
+C um PDB pode conter vários CDBs conectados a ele,
+permitindo executar a operação para vários contêineres a
+partir do PDB.
+D um 	contêiner 	de 	aplicativos 	é 	um 	componente 	CDB
+obrigatório criado pelo usuário com objetivo de permitir o
+acesso facilitado aos dados do PBD ou aos dos CBDs
+associados ao PDB.
+E cada CDB tem seu próprio conjunto de tablespaces, incluindo
+seus próprios tablespaces SYSTEM e SYSAUX.
+Questão 49
+Certo TRT deseja implementar uma solução de segurança
+cibernética 	que 	combine 	inteligência 	artificial, 	detecção
+comportamental e algoritmos de aprendizado de máquina para
+antecipar e prevenir ameaças conhecidas e desconhecidas.
+Com base nessa situação hipotética, assinale a opção que indica a
+solução requerida.
+A NGAV
+B IPS
+C IDS
+D NIST
+E WebProxy
+Questão 50
+A 	ferramenta 	que 	fornece 	informações 	a 	respeito 	da
+vulnerabilidade dos sistemas e verifica se esses sistemas podem
+ser explorados, encontrando o maior número possível de pontos
+fracos em um determinado período de tempo e, em seguida,
+fazendo recomendações sobre o tratamento, é denominada
+A Penetration Testing.
+B Wireshark.
+C Honeypots.
+D SELinux.
+E Security Orchestration, Automation and Response (SOAR).
+Questão 51
+A Lei n.º 13.709/2018 — Lei Geral de Proteção de Dados —
+dispõe sobre o tratamento de dados pessoais, inclusive nos meios
+digitais, e aplica-se a
+A operação de tratamento realizada por pessoa jurídica de
+direito 	público 	exclusivamente 	para 	fins 	de 	segurança
+pública.
+B qualquer operação de tratamento realizada por pessoa de
+direito privado, independentemente do país onde estejam
+localizados os dados, desde que a operação de tratamento seja
+realizada no território nacional.
+C operação de tratamento realizada por pessoa de direito
+público, desde que os dados pessoais objetos do tratamento
+estejam necessariamente localizados no território nacional.
+D operação de tratamento realizada por pessoa física para fins
+exclusivamente particulares.
+E operação 	de 	tratamento 	realizada 	por 	pessoa 	natural
+exclusivamente para fins de repressão de infrações penais.
+Questão 52
+O Secure Software Development Framework (NIST)
+descreve níveis de implementação da estrutura (“tiers”) que
+fornecem contexto sobre como uma organização vê o risco de
+segurança cibernética e os processos em vigor para gerenciar
+esse risco.
+Com base no texto precedente, assinale a opção que indica o
+nível de implementação da estrutura em que as práticas de
+gerenciamento 	de 	riscos 	da 	organização 	são 	formalmente
+aprovadas e expressas como política.
+A tier 3: repeatable
+B tier 4: adaptive
+C tier 1: partial
+D tier 5: optimize
+E tier 2: risk Informed
+
+-- 4 of 6 --
+
+CEBRASPE – TRT 8.ª REGIÃO – Edital: 2022
+Questão 53
+Com 	relação 	ao 	Modelo 	de 	Requisitos 	para 	Sistemas
+Informatizados de Gestão de Processos e Documentos do
+Judiciário brasileiro (MoReq-Jus), aprovado pela Resolução CNJ
+n.º 91/2009, assinale a opção correta.
+A O MoReq-Jus estabelece processos e requisitos mínimos para
+um 	Sistema 	Informatizado 	de 	Gestão 	de 	Processos 	e
+Documentos 	(GestãoDoc) 	somente 	se 	este 	sistema 	for
+desenvolvido por meio de software livre.
+B O MoReq-Jus é conhecido por ser um modelo direcionado,
+pois 	tem 	como 	único 	objetivo 	fornecer 	especificações
+funcionais, para orientar a aquisição, o detalhamento e o
+desenvolvimento de sistemas de gestão de processos e
+documentos no âmbito do Poder Judiciário brasileiro.
+C De acordo com o MoReq-Jus, metadado é o dado, estruturado
+ou não estruturado, que descreve e permite encontrar,
+gerenciar e compreender documentos institucionais ao longo
+do tempo.
+D No 	MoReq-Jus, 	a 	metodologia 	de 	planejamento 	e
+implantação de um programa de gestão de processos e
+documentos estabelece seis passos, os quais devem ser
+executados de forma sequencial. Levantamento preliminar e
+avaliação dos sistemas existentes são alguns exemplos desses
+passos.
+E O MoReq-Jus é dirigido a fornecedores e desenvolvedores de
+sistemas e a profissionais e provedores de serviços de gestão
+de documentos, entre outros.
+Questão 54
+O Comitê Gestor de Segurança da Informação do Poder
+Judiciário (CGSI-PJ), instituído pela Resolução CNJ n.º 396/21,
+com atribuição de assessorar o CNJ nas atividades relacionadas à
+segurança da informação, será coordenado por um
+A representante do Conselho Nacional de Justiça designado
+pelo STF.
+B representante do Conselho Nacional de Justiça designado pela
+presidência.
+C um representante do Superior Tribunal Militar nomeado por
+este tribunal.
+D especialista representante do Tribunal Superior Eleitoral
+designado pelo STF.
+E especialista representante do Conselho da Justiça Federal
+designado pela presidência do STJ.
+Questão 55
+De acordo com o Protocolo de Prevenção de Incidentes
+Cibernéticos do Poder Judiciário (PPINC-PJ), instituído pela
+Portaria CNJ n.º 162/2021, o protocolo de prevenção a incidentes
+cibernéticos criado no âmbito de cada tribunal contemplará um
+conjunto de princípios críticos que assegurem a construção de
+sistema de segurança cibernética eficaz.
+Considerando as informações apresentadas, assinale a opção que
+contém o princípio que representa o poder de recuperação ou a
+capacidade de uma organização resistir aos efeitos de um
+incidente bem como impedir a reincidência secundária do
+incidente identificado.
+A base de conhecimento de defesa
+B priorização
+C diagnóstico contínuo
+D resiliência
+E automação
+Questão 56
+De acordo com a biblioteca ITIL, em cada uma das fases
+do ciclo de vida de um serviço de TI, algumas perguntas devem
+ser realizadas e também respondidas, com a finalidade de
+acompanhar a vida do serviço.
+A partir das informações apresentadas, é correto afirmar que
+perguntas como "Qual é o serviço necessário?" e "Por que ele é
+necessário?" estão relacionadas à fase de
+A aquisição.
+B utilização.
+C reativação.
+D requisição.
+E desativação.
+Questão 57
+Para 	o 	COBIT, 	habilitadores 	são 	fatores 	que,
+individualmente 	e 	em 	conjunto, 	podem 	interferir 	no
+funcionamento de algo, nesse caso, a governança e a gestão
+corporativa da TI.
+Considerando-se as informações precedentes, no que se refere a
+habilitadores, é correto afirmar que as principais entidades de
+tomada de decisão de uma organização dizem respeito a
+A estruturas organizacionais.
+B processos.
+C princípios, políticas e modelos.
+D serviços, infraestrutura e aplicativos.
+E cultura, ética e comportamento.
+Questão 58
+De acordo com a Resolução CNJ n.º 370/2021, o Plano de
+Transformação Digital é um instrumento de planejamento que
+será elaborado pela unidade competente dos órgãos, respeitando-
+se suas especificidades, e aprovado
+A pelo magistrado mais antigo do órgão.
+B pelo presidente do Conselho Nacional de Justiça.
+C pelo Comitê de Governança de Tecnologia da Informação e
+Comunicação.
+D pelo chefe do Departamento de Tecnologia da Informação.
+E pelo Comissão Permanente de Tecnologia da Informação e
+Inovação.
+Espaço livre
+
+-- 5 of 6 --
+
+CEBRASPE – TRT 8.ª REGIÃO – Edital: 2022
+Text 15A13-I
+The European Commission has publicized new liability
+rules on digital products and artificial intelligence (AI) in order
+to protect consumers from harm, including in cases where
+cybersecurity vulnerabilities fail to be addressed. The two
+proposals the Commission adopted on September 28th, 2022 will
+modernize 	the 	existing 	rules 	on 	the 	strict 	liability 	of
+manufacturers for defective products, from smart technology to
+pharmaceuticals.
+Additionally, the Commission proposes – for the first
+time, it says – a targeted harmonization of national liability rules
+for AI, making it easier for victims of AI-related damage to get
+compensation. 	This 	will 	be 	adopted 	in 	line 	with 	the
+Commission’s 2021 AI Act proposal. The liability rules allow
+compensation for damages when products like robots, drones or
+smart-home systems are made unsafe by software updates, AI or
+digital services that are needed to operate the product, as well as
+when manufacturers fail to address cybersecurity vulnerabilities.
+Explaining how the new rules shift the focus in such
+litigations, John Buyers, head of AI at Osborne Clarke, said
+“there is a very intentional interplay between the AI Act and the
+proposed new presumptions on liability, linking non-compliance
+with the EU's planned regulatory regime with increased exposure
+to damages actions. Instead of having to prove that the AI system
+caused the harm suffered, claimants who can prove non-
+compliance 	with 	the 	Act 	(or 	certain 	other 	regulatory
+requirements) will benefit from a presumption that their damages
+case is proven. The focus will then shift to the defendant to show
+that its system is not the cause of the harm suffered.”
+However, one challenge Buyers points out is the need for
+claimants to get hold of the defendant's regulatory compliance
+documentation to inform their claims. In addition, Buyers said
+that the AI Act is not expected to become law before late 2023,
+with a period for compliance after that — which will likely be 2
+years, but this is still being debated.
+Internet: <www.infosecurity-magazine.com> (adapted).
+Questão 59
+According to text 15A13-I, it is correct to infer that
+A it is the first time the European Commission has publicized
+liability rules on digital products and AI.
+B the new liability rules also encompass products which are not
+digital or AI-related.
+C the rules on the liability of manufacturers for faulty goods are
+possibly not lenient.
+D the European Commission has come up with a proposal to
+compensate 	consumers 	who 	damaged 	their 	products
+themselves.
+E the compensation proposed by the European Commission
+only 	applies 	to 	the 	products 	which 	came 	with 	a
+manufacturing defect.
+Questão 60
+It can be inferred from the third paragraph of text 15A13-I that
+A consumers will have a hard time proving that the AI system
+caused harm to the product they had previously bought.
+B claimants will be granted compensation for any reason.
+C consumers will not be compensated unless they can prove
+that it was the AI system that caused the harm suffered.
+D claimants will now have to prove both that there was an AI-
+related problem with their products and that the defendant
+failed to comply with the AI Act.
+E the new rules will make it possible for claimants to get
+compensation even if they do not directly prove that the AI
+system caused the harm suffered.
+Espaço livre
+
+-- 6 of 6 --
+

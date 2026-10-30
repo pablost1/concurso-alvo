@@ -1,0 +1,962 @@
+CEBRASPE – TCE/MG – Edital: 2025
+-- CONHECIMENTOS ESPECÍFICOS --
+ANÁLISE DE SISTEMAS
+QUESTÃO 31 <SEFAPR135CG1A02E3674>
+Os representantes de certa empresa pública de tecnologia
+desejam melhorar a previsibilidade de seus projetos de software,
+mantendo a flexibilidade de adaptação às mudanças. Para isso,
+decidiram combinar práticas do CMMI-DEV v. 2.0 e princípios
+de metodologias ágeis.
+A partir dessa situação hipotética, assinale a opção que
+corresponde à abordagem mais adequada para que os
+representantes dessa empresa atinjam seus objetivos.
+A aplicar apenas as práticas de maturidade do CMMI, sem
+combinar com princípios ágeis, para evitar conflitos de
+abordagem
+B priorizar o cumprimento rígido de processos definidos, típicos
+do CMMI, reduzindo a autonomia da equipe Scrum
+C eliminar práticas de inspeção e adaptação do Scrum,
+substituindo-as por auditorias de processo do CMMI
+D incorporar a fase de elaboração do RUP dentro dos sprints
+para garantir documentação formal detalhada
+E adotar práticas de medição e análise do CMMI para apoiar
+decisões baseadas em dados, mantendo as cerimônias e papéis
+do Scrum
+QUESTÃO 32 <TCEMG128001A01E2971>
+Certa empresa decidiu adotar uma abordagem híbrida
+entre Scrum e CMMI-DEV v. 2.0, com o objetivo de equilibrar a
+autonomia da equipe com a rastreabilidade dos resultados.
+No contexto dessa situação hipotética, é correto afirmar que a
+atribuição de maximizar o valor entregue ao cliente é
+responsabilidade do(a)
+A auditor CMMI, que valida os resultados com base nos níveis
+de maturidade.
+B product owner, que prioriza o backlog e representa os
+interesses do cliente.
+C Scrum master, que garante o cumprimento de padrões de
+qualidade definidos pelo CMMI.
+D gerente de processos, responsável por assegurar a maturidade
+organizacional.
+E equipe de desenvolvimento, que define o valor a ser entregue
+conforme critérios internos.
+QUESTÃO 33 <TCEMG128001A01E2971>
+Um grupo de especialistas estava desenvolvendo um
+sistema de cadastro de magistrados e servidores. Durante uma
+análise, perceberam que há diversas formas de validar dados e
+que novas regras podem surgir frequentemente. Para evitar que o
+código da classe principal sofra alterações constantes, o grupo
+desenvolvedor decidiu encapsular as regras de validação em
+classes separadas e permitir que o sistema troque dinamicamente
+o método de validação usado.
+A partir da situação hipotética precedente, é correto afirmar que o
+padrão de projeto mais adequado para essa solução é o
+A observer.
+B singleton.
+C strategy.
+D composite.
+E prototype.
+QUESTÃO 34 <TCEMG128001A01E2971>
+Certa equipe de desenvolvimento está criando um sistema
+de acompanhamento processual com interface web e aplicativo
+móvel. O sistema adota o padrão MVC para separar a lógica da
+apresentação, mas a comunicação entre o front-end e o back-end
+ocorre por APIs REST expostas em contêineres Docker,
+orquestrados por Kubernetes, a fim de garantir alta
+disponibilidade e balanceamento de carga.
+A partir da situação hipotética precedente, é correto afirmar que o
+conjunto de tecnologias e conceitos utilizados caracteriza uma
+A implementação de SOA baseada em filas síncronas e
+acoplamento rígido.
+B aplicação peer-to-peer com comunicação direta entre
+instâncias.
+C arquitetura cliente-servidor com uso de microsserviços e
+contêineres orquestrados.
+D aplicação monolítica com padrão MVC centralizado.
+E arquitetura em três camadas sem separação lógica entre
+componentes.
+QUESTÃO 35 <TCEMG128001A01E2971>
+Uma equipe de desenvolvimento de certo órgão público
+criou um sistema de gestão de demandas internas com o objetivo
+de agilizar o fluxo de solicitações entre setores. Ao longo do
+desenvolvimento do projeto, a equipe de análise de negócios
+realizou entrevistas com os usuários e utilizou diagramas UML
+para representar casos de uso e fluxos de atividades. O produto
+foi desenvolvido a partir da metodologia ágil Scrum (versão
+2020), com entregas incrementais, e parte das rotinas
+automatizadas de aprovação de solicitações foi implementada por
+meio de ferramentas no-code, como o Power Automate. Além
+disso, foram adotadas práticas de garantia da qualidade do
+software durante os sprints e definidas as necessidades
+funcionais.
+A partir do cenário apresentado na situação hipotética precedente,
+é correto afirmar que a equipe aplicou um processo que
+A segue o modelo lean isoladamente, sem preocupação com
+documentação ou qualidade de software.
+B integra práticas de engenharia de requisitos, modelagem de
+sistemas e desenvolvimento ágil com apoio de automação
+no-code.
+C se baseia em uma abordagem tradicional em cascata, com
+fases rígidas e sem integração de ferramentas automatizadas.
+D aplica apenas o XP (extreme programming), priorizando a
+codificação contínua e a ausência de modelagem formal.
+E adota práticas de prototipagem rápida, sem a necessidade de
+documentação de requisitos e das relações intercambiáveis.
+
+-- 1 of 9 --
+
+CEBRASPE – TCE/MG – Edital: 2025
+QUESTÃO 36 <TCEMG128001A01E2971>
+O tribunal de determinado estado realizou um processo de
+modernização digital para otimizar o atendimento ao público. O
+novo sistema utiliza inteligência artificial para identificar
+automaticamente o tipo de solicitação recebida, encaminhar o
+processo ao setor adequado e responder a dúvidas frequentes de
+forma interativa. Para isso, a equipe de TI implantou modelos de
+aprendizado de máquina supervisionado, integrados a módulos de
+processamento de linguagem natural (PLN), que permitem que o
+sistema compreenda textos em linguagem humana e aprimore
+continuamente suas respostas. Os dados de interação são
+armazenados em banco de dados em nuvem, e os modelos são
+atualizados periodicamente para melhorar a precisão.
+O sistema descrito na situação hipotética precedente aplica
+A estratégias de automação baseadas exclusivamente em scripts
+de lógica sequencial.
+B métodos de simulação matemática estática voltados apenas à
+previsão numérica de séries temporais.
+C técnicas de inteligência artificial baseadas em aprendizado de
+máquina e processamento de linguagem natural.
+D procedimentos de mineração de dados para geração de
+relatórios de desempenho organizacional.
+E algoritmos determinísticos convencionais, com respostas fixas
+e previsíveis a cada solicitação.
+Espaço livre
+QUESTÃO 37 <TCEMG128001A01E2971>
+Certa startup brasileira desenvolveu uma aplicação de
+inteligência artificial para auxiliar a justiça federal na análise
+inicial de recursos jurídicos de baixo valor. O sistema opera
+como um agente inteligente que utiliza um extenso dataset de
+jurisprudências passadas para calcular a probabilidade de sucesso
+de novos recursos, com o objetivo de otimizar a triagem
+processual ao maximizar a taxa de acerto nas suas previsões.
+Em testes, a aplicação atingiu uma impressionante taxa de
+precisão de 98% na previsão de resultados. No entanto, uma
+auditoria de compliance ético revelou que o algoritmo
+apresentava um viés: os recursos originários de regiões com
+baixo índice de desenvolvimento humano (IDH) do Nordeste
+brasileiro eram sistematicamente classificados com menor
+probabilidade de sucesso, mesmo quando apresentavam mérito
+legal similar a casos de regiões mais desenvolvidas. A equipe
+técnica defendeu o sistema, alegando que ele era racional, pois
+maximizava consistentemente a métrica de acerto definida.
+Considerando a natureza do sistema criado nessa situação
+hipotética e a distinção fundamental entre racionalidade e justiça
+em sistemas de IA, assinale a opção que apresenta corretamente a
+falha ética do sistema à luz dos conceitos básicos da inteligência
+artificial.
+A O viés regional é uma prova incontestável de que o sistema é
+um exemplo de inteligência artificial simbólica, pois somente
+essa arquitetura, baseada em regras pré-codificadas, é capaz
+de manifestar discriminação explícita, ao contrário dos
+modelos conectivistas (redes neurais).
+B A falha do sistema é uma evidência de que ele não pode ser
+classificado como um agente racional, pois, por definição, ele
+deve seguir a função de utilidade ideal de uma sociedade
+justa, o que exige que o sistema possua consciência e um
+senso moral.
+C O sistema é um agente puramente reativo, e sua incapacidade
+de manter estados internos sobre a equidade do dataset é a
+causa direta do viés, o que demonstra a ineficácia dos
+sistemas de machine learning baseados em modelos.
+D O sistema demonstra uma limitação da inteligência artificial
+forte, cuja alta taxa de acerto é incompatível com o viés, o
+que confirma que a singularidade tecnológica não será
+alcançada enquanto os sistemas de inteligência artificial não
+forem treinados apenas com dados totalmente neutros, sem
+histórico humano.
+E A racionalidade técnica do sistema é mantida, pois ele
+maximiza sua função utilidade (taxa de acerto), mas o viés
+detectado reside na definição dessa utilidade ou na qualidade
+dos dados de treinamento, o que o caracteriza como um
+sistema racionalmente tendencioso, mas não irracional.
+
+-- 2 of 9 --
+
+CEBRASPE – TCE/MG – Edital: 2025
+ANÁLISE DE DADOS
+QUESTÃO 38 <SEFAPR135CG1A02E3674>
+As tabelas CLIENTE e PEDIDO a seguir ainda não têm
+definição de chaves, índices ou quaisquer instrumentos de
+integridade além dos explicitamente declarados.
+Tabela CLIENTE
+id_cliente INTEGER
+nome VARCHAR(100)
+email VARCHAR(120)
+Tabela PEDIDO
+id_pedido INTEGER
+id_cliente INTEGER
+valor_total DECIMAL(10,2)
+data_pedido DATE
+Com base nos efeitos diretos da criação de instrumentos de banco
+de dados relacionais, assinale a opção que apresenta a ação que
+garante a integridade referencial no atributo id_cliente da
+tabela PEDIDO.
+A criar uma chave primária no campo id_cliente da tabela
+CLIENTE e um índice único no campo id_cliente da tabela
+PEDIDO
+B criar uma chave primária no campo id_cliente da tabela
+PEDIDO e uma chave estrangeira no campo id_cliente da
+tabela CLIENTE, referenciando o campo id_cliente da
+tabela PEDIDO
+C criar uma chave primária no campo id_cliente da tabela
+CLIENTE e uma chave estrangeira no campo id_cliente da
+tabela PEDIDO, referenciando o campo id_cliente da
+tabela CLIENTE
+D criar uma chave primária no campo id_cliente da tabela
+PEDIDO
+E criar uma chave primária no campo id_cliente da tabela
+CLIENTE
+QUESTÃO 39 <TCEMG128001A02E2780>
+Em modelagem dimensional, as métricas registradas em tabelas
+fato podem ser classificadas conforme seu comportamento frente
+às operações de agregação. A respeito dessa classificação,
+assinale a opção correta.
+A Métricas classificadas como não aditivas podem ser
+agregadas apenas ao longo de dimensões cuja granularidade
+seja correspondente à da tabela fato.
+B Métricas semiaditivas e não aditivas compartilham a
+característica de impedirem agregação ao longo de qualquer
+dimensão, diferenciando-se pela forma como são
+armazenadas na tabela fato.
+C Atributos numéricos são classificados como métricas aditivas,
+pois valores numéricos não perdem significado ao serem
+somados ao longo de todas as dimensões.
+D Métricas classificadas como aditivas podem ser agregadas ao
+longo de todas as dimensões, com exceção daquelas que
+apresentam hierarquias normalizadas, como as encontradas
+em esquemas em floco de neve.
+E Métricas classificadas como semiaditivas permitem agregação
+em algumas dimensões, mas não ao longo de todas, sendo
+comum que apresentem restrição de agregação
+especificamente na dimensão tempo.
+QUESTÃO 40 <TCEMG128001A02E2780>
+Acerca das características de classificação, regressão,
+clusterização, regras de associação e detecção de anomalias,
+assinale a opção correta.
+A Regras de associação são classificadas como aprendizagem
+supervisionada, pois podem ser validadas com base em
+rótulos de saída conhecidos.
+B Classificação e regressão pertencem à aprendizagem
+supervisionada; enquanto clusterização, associação e detecção
+de anomalias são consideradas tarefas de aprendizagem não
+supervisionada.
+C Detecção de anomalias é uma tarefa de aprendizagem
+supervisionada, pois depende de exemplos rotulados de
+comportamento normal e anômalo.
+D Classificação e regressão são tarefas de aprendizagem não
+supervisionada, pois exigem apenas dados de entrada, sem a
+presença de rótulos.
+E Clusterização e regras de associação são exemplos de
+aprendizagem supervisionada, pois identificam padrões
+previamente definidos.
+QUESTÃO 41 <TCEMG128001A02E2780>
+Amplamente utilizado em tarefas de clusterização, o algoritmo
+k-means
+A ignora valores extremos, uma vez que o cálculo do centroide
+é baseado em medianas.
+B tende a produzir clusters esféricos, sendo sensível à escala
+dos atributos.
+C encontra agrupamentos independentemente da inicialização e
+converge para a solução global ótima.
+D produz como saída, durante sua execução, o valor ótimo de k.
+E é adequado para dados categóricos, pois calcula centroides
+usando a moda das categorias.
+QUESTÃO 42 <TCEMG128001A02E2780>
+Assinale a opção correta acerca do modelo LDA (latent dirichlet
+allocation), amplamente utilizado para extração de tópicos em
+tarefas de mineração de textos.
+A O LDA assume que cada documento é gerado por uma
+combinação de tópicos, e que cada tópico corresponde a uma
+distribuição de probabilidade sobre palavras.
+B O LDA é um modelo supervisionado que aprende tópicos por
+meio de documentos previamente rotulados.
+C No LDA, cada documento pertence a um único tópico, que
+deve ser explicitamente indicado pelo modelo.
+D O LDA utiliza variáveis latentes que podem ser estimadas
+diretamente a partir das frequências observadas, sem
+necessidade de inferência probabilística.
+E O LDA gera automaticamente o número ideal de tópicos com
+base em máxima verossimilhança, sem necessidade de
+definição prévia.
+QUESTÃO 43 <TCEMG128001A02E2780>
+Acerca da linguagem SQL, assinale a opção correta.
+A A combinação de funções de agregação com GROUP BY
+permite produzir métricas agrupadas por atributos, como
+totais, médias e contagens segmentadas.
+B A cláusula ORDER BY deve ser utilizada antes do GROUP BY
+para que a ordenação não interfira nos cálculos agregados.
+C A aplicação de SUM e AVG exige que a consulta tenha um
+GROUP BY.
+D A cláusula HAVING atua antes da etapa de agregação, sendo
+equivalente à cláusula WHERE em consultas com GROUP BY.
+E A função COUNT(coluna) retorna o total de linhas da
+consulta, independentemente da existência de valores nulos
+na respectiva coluna.
+
+-- 3 of 9 --
+
+CEBRASPE – TCE/MG – Edital: 2025
+QUESTÃO 44 <TCEMG128001A02E2780>
+No uso de planilhas eletrônicas para análise de dados, diversas
+funções e tipos de referência influenciam diretamente a
+consistência e o comportamento das fórmulas. Em relação às
+planilhas eletrônicas, assinale a opção correta.
+A A função MÉDIA ignora células vazias e zeros no cálculo, pois
+ambos são tratados como valores ausentes.
+B Em planilhas eletrônicas, a função CONT.VALORES considera
+células vazias como zero, o que permite contabilizar registros
+mesmo quando não há conteúdo explícito.
+C A função SOMASE permite aplicar um critério sobre um
+intervalo e somar valores de outro intervalo correspondente,
+desde que ambos possuam a mesma dimensão.
+D Referências mistas, como $B3 ou C$2, controlam a fixação
+parcial de linha ou coluna, permitindo que apenas parte da
+referência se ajuste quando a fórmula é copiada para outras
+células.
+E A função de busca PROCV(VLOOKUP) permite localizar
+valores em colunas posicionadas tanto à direita quanto à
+esquerda da coluna utilizada como chave de busca.
+BANCO DE DADOS
+QUESTÃO 45 <SEFAPR135CG1A02E3674>
+Acerca das características da abordagem relacional, assinale a
+opção correta.
+A Em um banco de dados relacional, o conceito de relação é
+equivalente ao de arquivo físico, sendo cada relação
+armazenada em um arquivo separado no sistema operacional.
+B A abordagem relacional utiliza estruturas hierárquicas para
+armazenar os dados, organizando-os em níveis de pai e filho.
+C Na abordagem relacional, cada relação é representada por um
+conjunto de tuplas ordenadas, cuja ordem influencia
+diretamente o resultado das consultas SQL.
+D Na abordagem relacional, os dados são representados em
+tabelas (relações), e cada linha dessas tabelas corresponde a
+uma tupla que representa uma instância de entidade.
+E A linguagem de manipulação de dados na abordagem
+relacional é procedural, exigindo que o programador
+especifique, passo a passo, o modo de obtenção dos
+resultados.
+QUESTÃO 46 <TCEMG128001A03E2461>
+Considerando os princípios das formas normais no modelo
+relacional, assinale a opção correta a respeito da terceira forma
+normal (3FN).
+A Uma relação estará na 3FN somente se não houver a presença
+de atributos multivalorados.
+B A 3FN é atingida quando cada atributo não chave depende
+parcialmente da chave primária composta.
+C Uma tabela em 3FN pode conter dependências funcionais
+entre atributos não chave, desde que não envolvam a chave
+primária.
+D Uma relação estará na 3FN se estiver na 2FN e não contiver
+dependências transitivas entre atributos não chave.
+E A 3FN exige que todos os atributos da tabela dependam
+exclusivamente de uma chave estrangeira.
+QUESTÃO 47 <TCEMG128001A03E2461>
+CREATE TABLE unidade_gestora (
+id_ug INT PRIMARY KEY,
+nome VARCHAR(80) UNIQUE NOT NULL
+);
+CREATE TABLE auditor (
+id_auditor INT PRIMARY KEY,
+nome VARCHAR(80) NOT NULL,
+id_ug INT,
+remuneracao DECIMAL(10,2) CHECK
+(remuneracao > 0),
+FOREIGN KEY (id_ug) REFERENCES
+unidade_gestora(id_ug)
+);
+ALTER TABLE auditor
+ADD CONSTRAINT fk_supervisor
+FOREIGN KEY (id_auditor) REFERENCES
+auditor(id_auditor);
+Com base no código SQL precedente e nos comandos da
+linguagem de definição de dados (DDL), assinale a opção
+correta.
+A Todos os comandos serão executados com sucesso, mas a
+restrição CHECK não será aplicada, pois o SQL padrão não
+permite expressões lógicas em restrições de coluna.
+B O comando CREATE TABLE de unidade_gestora criará a
+tabela, mas o comando de criação de auditor será rejeitado,
+já que o campo id_ug não é uma chave primária na tabela
+unidade_gestora.
+C O comando ALTER TABLE criará uma nova coluna
+denominada fk_supervisor para armazenar a chave de
+relacionamento hierárquico entre auditores.
+D A última instrução (ALTER TABLE) criará uma relação
+recursiva válida, permitindo que um auditor seja referenciado
+como supervisor de outro auditor.
+E A criação da tabela auditor falhará, pois não é permitido
+definir restrições CHECK e FOREIGN KEY simultaneamente
+em uma mesma tabela.
+Espaço livre
+
+-- 4 of 9 --
+
+CEBRASPE – TCE/MG – Edital: 2025
+QUESTÃO 48 <TCEMG128001A03E2461>
+O banco de dados do TCE/MG contém as seguintes
+tabelas.
+auditoria (id_auditoria, id_ug, status, data_fim)
+relatório (id_relatorio, id_auditoria, conclusao)
+Ao término dos trabalhos, um analista deve atualizar o
+campo status da tabela auditoria para 'Concluída' sempre
+que existir um relatório associado cuja conclusão seja
+'Aprovado'.
+A partir dessa situação hipotética, assinale a opção em que é
+apresentada a sintaxe SQL que o referido analista deverá utilizar
+para executar essa atualização.
+A
+B
+C
+D
+E
+QUESTÃO 49 <TCEMG128001A03E2461>
+Em uma organização pública, como o TCE/MG, a administração
+de dados e o gerenciamento de banco de dados são essenciais
+para garantir integridade, disponibilidade e segurança das
+informações. Consideradas as responsabilidades de um
+administrador de banco de dados (DBA), é correto afirmar que
+uma função primária desse profissional é
+A realizar treinamentos operacionais para auditores e gestores
+públicos.
+B desenvolver sistemas de contabilidade e planilhas financeiras
+para a equipe de auditoria.
+C emitir pareceres técnicos sobre órgãos fiscalizados.
+D configurar redes locais e gerenciar servidores web do
+Tribunal.
+E planejar, implementar e gerenciar políticas de backup,
+recuperação e manutenção do banco de dados.
+QUESTÃO 50 <TCEMG128001A03E2461>
+No Oracle Database 21C, uma instância gerencia um
+CDB (container database), que pode conter múltiplos
+PDBs (pluggable databases). Cada PDB possui usuários,
+schemas, tablespaces e dados de aplicação isolados, mas
+compartilha a SGA e os processos de background da instância do
+CDB. Nessa arquitetura, o elemento que armazena metadados
+comuns e controla a existência de múltiplos PDBs dentro de um
+CDB é o
+A extent.
+B undo.
+C datafile.
+D segment.
+E root.
+QUESTÃO 51 <TCEMG128001A03E2461>
+Assinale a opção que corresponde ao comando do ADABAS que
+permite a recuperação de registros de um arquivo baseado em
+critérios complexos, podendo combinar atributos múltiplos,
+valores repetidos e relacionamentos definidos no dicionário.
+A FIND
+B MAP
+C RI
+D HI
+E LIST
+QUESTÃO 52 <TCEMG128001A03E2461>
+Os data lakes
+A aplicam schema-on-read.
+B têm necessidade de normalização prévia.
+C exportam apenas relatórios padronizados obrigatórios.
+D suportam apenas SQL estruturado.
+E são exclusivos para OLTP.
+UPDATE auditoria
+SET status = 'Concluída'
+WHERE id_auditoria IN (
+SELECT id_relatorio
+FROM relatorio
+WHERE conclusao = 'Aprovado'
+);
+UPDATE relatorio
+SET status = 'Concluída'
+WHERE EXISTS (
+SELECT id_relatorio
+FROM relatorio
+WHERE conclusao = 'Aprovado'
+);
+UPDATE auditoria
+SET status = 'Concluída'
+WHERE EXISTS IN (
+SELECT *
+FROM relatorio
+WHERE auditoria.id_relatorio =
+relatorio.id_auditoria
+);
+UPDATE auditoria
+SET status = (
+SELECT 'Concluída'
+FROM relatorio
+WHERE conclusao = 'Aprovado'
+);
+UPDATE auditoria
+SET status = 'Concluída'
+WHERE EXISTS (
+SELECT 1
+FROM relatorio r
+WHERE r.id_auditoria=a.id_auditoria
+AND r.conclusao = 'Aprovado'
+);
+
+-- 5 of 9 --
+
+CEBRASPE – TCE/MG – Edital: 2025
+LEGISLAÇÃO
+QUESTÃO 53 <SEFAPR135CG1A02E3674>
+Uma startup brasileira desenvolveu um aplicativo para
+predizer, por meio de IA, a probabilidade de um indivíduo
+desenvolver certas condições médicas com base em dados
+genéticos e histórico familiar. Os dados foram coletados
+mediante consentimento dos usuários, para fins de melhoria do
+algoritmo e pesquisa científica. Os riscos para os dados e os
+impactos associados foram relatados como muito baixos pela
+startup. Um órgão de pesquisa parceiro internacional que teve
+acesso aos dados, em razão de vulnerabilidade conceitual do
+método de pseudonimização empregado, conseguiu reidentificar
+uma parte significativa dos titulares ao cruzar os dados com bases
+públicas.
+A partir da situação hipotética precedente, é correto afirmar, com
+base na LGPD, que a ação inadequada da startup que culminou
+no vazamento de dados sensíveis foi o(a)
+A ausência de consentimento expresso dos titulares para o
+compartilhamento dos dados pseudonimizados.
+B uso compartilhado de dados de saúde para a realização de
+estudos e pesquisas científicas.
+C emprego de uma técnica frágil de pseudonimização associada
+à falta de uma análise de riscos adequada no relatório de
+impacto.
+D transferência internacional de dados pseudonimizados de
+usuários coletados no Brasil para órgão de pesquisa parceiro.
+E tratamento de dados genéticos sensíveis para fins de estudos e
+pesquisa científica.
+QUESTÃO 54 <TCEMG128001A04E2835>
+Um site coleta dados pessoais de usuários em troca de
+remuneração, obtendo o consentimento para tratamento dos
+dados dos usuários a partir do fornecimento de informações
+enganosas e sem a devida clareza e transparência sobre o
+tratamento dos dados exigidos pela LGPD.
+A partir da situação hipotética apresentada, é correto afirmar,
+com base na LGPD, que o tratamento dos dados pessoais
+realizado pelo site é uma conduta vedada na lei, pois foi realizada
+mediante
+A vício de consentimento.
+B remuneração imprópria.
+C erro material.
+D desvio de finalidade.
+E abuso retórico.
+QUESTÃO 55 <TCEMG128001A04E2835>
+Um provedor de acesso à Internet identificou tráfego
+anômalo consistente com ataque DDoS dirigido a um serviço de
+aplicação hospedado externamente, o que pode comprometer a
+rede e afetar outros usuários.
+De acordo com a Lei n.º 12.965/2014 (Marco Civil da Internet) e
+os dispositivos legais aplicáveis, antes de uma ordem judicial o
+provedor poderá
+A discriminar o tráfego, desde que por razões técnicas
+indispensáveis à prestação adequada dos serviços, observados
+os princípios e obrigações da legislação.
+B degradar o tráfego do serviço alvo do ataque, sem distinção
+de tipo de conteúdo, até que o ataque cesse, mesmo que isso
+afete usuários legítimos do serviço.
+C priorizar o tráfego considerado crítico e urgente de outros
+clientes corporativos, desde que se justifique que a falta desse
+procedimento pode prejudicar os negócios dos clientes que
+compartilham a infraestrutura.
+D bloquear preventivamente todo o tráfego dirigido ao serviço
+sob ataque e, a seguir, solicitar à autoridade judicial que emita
+ordem de indisponibilidade do serviço afetado para respaldar
+a medida técnica já executada.
+E interromper temporariamente todo tipo de tráfego do serviço
+alvo do ataque, inclusive de usuários legítimos, sem ordem
+judicial, até que o ataque esteja sob controle, de modo a
+garantir o nível de qualidade de serviço contratado pelos
+demais usuários da rede.
+QUESTÃO 56 <TCEMG128001A04E2835>
+Um usuário brasileiro de uma rede social sediada fora do
+Brasil publicou na plataforma um conteúdo que viola direitos de
+um determinado escritor que, por sua vez, procurou diretamente a
+empresa dona da rede social para solicitar a remoção do
+conteúdo.
+Com base nessa situação hipotética e na Lei n.º 12.965/2014
+(Marco Civil da Internet), assinale a opção correta no que se
+refere ao procedimento exigido para que a empresa dona da rede
+social possa ser responsabilizada civilmente pelo conteúdo
+publicado.
+A A aplicabilidade da legislação do país de origem da
+plataforma de rede social é suficiente para o reconhecimento
+da ilicitude da violação de direitos autorais no Brasil.
+B É necessária a decisão judicial transitada em julgado contra a
+proprietária da plataforma de rede social para que esta seja
+responsabilizada civilmente, não sendo possível a antecipação
+de tutela.
+C A ordem judicial, com identificação clara e específica do
+conteúdo apontado como infringente, que permita sua
+localização exata é requisito para responsabilização civil da
+plataforma.
+D A simples notificação extrajudicial do titular dos direitos à
+empresa proprietária da rede social, solicitando a remoção do
+conteúdo, é suficiente para que haja responsabilização.
+E A verificação da política interna de uso de serviço da rede
+social, no que diz respeito à proibição de violação de direitos
+autorais específicos, deve ser acompanhada da formalização
+extrajudicial do titular dos direitos.
+
+-- 6 of 9 --
+
+CEBRASPE – TCE/MG – Edital: 2025
+GOVERNANÇA DE TI
+QUESTÃO 57 <SEFAPR135CG1A02E3674>
+Uma organização definiu em seu BSC (balanced
+scorecard) a meta estratégica de aumentar a satisfação do cliente.
+O processo de gestão de pedidos, mapeado em BPMN, foi
+identificado como crítico para alcançar essa meta. Nesse cenário,
+o indicador de desempenho (KPI) mais direto para monitorar a
+contribuição desse processo para a meta estratégica seria
+A a quantidade de não conformidades em auditorias internas de
+TI.
+B o custo operacional total do departamento de logística.
+C o número de horas de treinamento em BPMN da equipe de
+processos.
+D o tempo de ciclo (cycle time) desde o recebimento do pedido
+até a entrega.
+E o retorno sobre o investimento (ROI) do novo software de
+CRM.
+QUESTÃO 58 <TCEMG128001A05E1492>
+De acordo com o framework Scrum, o evento que ocorre ao final
+da sprint com o propósito de inspecionar o incremento do
+produto e adaptar o product backlog, se necessário, envolvendo o
+time Scrum e os stakeholders-chave, é denominado
+A product backlog refinement (refinamento do backlog do
+produto).
+B sprint review (revisão da sprint).
+C sprint retrospective (retrospectiva da sprint).
+D sprint planning (planejamento da sprint).
+E daily Scrum (reunião diária).
+QUESTÃO 59 <TCEMG128001A05E1492>
+Uma instituição financeira está estruturando seu sistema
+de governança de informação e tecnologia com base no COBIT
+2019 e adotando o framework COSO para a gestão de riscos
+corporativos. A respeito da integração e dos princípios desses
+frameworks, julgue os itens a seguir.
+I A ISO/IEC 38500 estabelece o princípio da responsabilidade,
+indicando que os indivíduos e grupos na organização devem
+compreender e aceitar suas responsabilidades no
+fornecimento e na demanda de TI, o que inclui a supervisão
+dos riscos.
+II O COBIT 2019, em seu domínio avaliar, dirigir e monitorar
+(EDM), define o objetivo EDM03 (assegurar otimização de
+riscos), que se alinha diretamente aos componentes de
+avaliação de riscos e atividades de controle do framework
+COSO.
+III O framework COSO estabelece que a gestão de riscos deve
+ser aplicada isoladamente pelo departamento de auditoria,
+enquanto o COBIT 2019 determina que os riscos de TI são de
+responsabilidade da equipe de segurança da informação.
+Assinale a opção correta.
+A Apenas o item I está certo.
+B Apenas o item III está certo.
+C Apenas os itens I e II estão certos.
+D Apenas os itens II e III estão certos.
+E Todos os itens estão certos.
+QUESTÃO 60 <TCEMG128001A05E1492>
+Uma organização está em processo de adoção da ITIL v4
+para otimizar a entrega de seus serviços digitais. O foco atual da
+equipe de TI é entender o modelo operacional central que
+descreve como os componentes do sistema de valor de serviço
+(SVS) atuam em conjunto para facilitar a criação de valor por
+meio dos serviços. Na ITIL v4, o componente do SVS que
+fornece esse modelo operacional flexível é a
+A melhoria contínua (continual improvement).
+B prática de habilitação de mudanças (change enablement).
+C governança (governance).
+D cadeia de valor de serviço (service value chain).
+E prática de gerenciamento de incidentes.
+QUESTÃO 61 <TCEMG128001A05E1492>
+O tribunal de contas de um estado brasileiro está
+elaborando seu Plano Diretor de Tecnologia da Informação
+(PDTI) para o próximo biênio. Esse documento visa a nortear os
+investimentos e as ações de TI, garantindo que estejam alinhados
+às metas institucionais. De acordo com as boas práticas de
+planejamento estratégico de TI (PETI/PDTI), esse instrumento
+deve, fundamentalmente,
+A descrever a arquitetura de segurança da informação e os
+planos de contingência em caso de desastres, pois são o seu
+foco fundamental.
+B substituir o plano estratégico institucional (PEI),
+centralizando todas as metas da organização, incluindo as de
+TI.
+C focar na definição de acordos de nível de serviço (SLA) e no
+gerenciamento de incidentes operacionais do dia a dia.
+D listar detalhadamente todos os requisitos de software e
+hardware a serem adquiridos no período.
+E funcionar como um plano tático que traduz as diretrizes do
+plano estratégico institucional (PEI) em um inventário de
+necessidades e um plano de ação para a TI.
+QUESTÃO 62 <TCEMG128001A05E1492>
+Uma empresa de e-commerce iniciou um projeto cujo
+objetivo é a adequação à Lei Geral de Proteção de Dados (Lei
+n.º 13.709/2018). Durante a fase de mapeamento de dados (data
+mapping), a equipe de compliance identificou que o formulário
+de cadastro de novos clientes solicitava informações como
+religião e orientação sexual. À luz da LGPD, essa prática de
+coleta de dados
+A atende ao princípio do livre acesso, desde que o titular possa
+consultar a integralidade de seus dados posteriormente.
+B está em conformidade com o princípio da adequação, pois os
+dados são compatíveis com o contexto do cadastro de
+clientes.
+C viola o princípio da necessidade (minimização), pois os dados
+solicitados são excessivos e desnecessários para o
+cumprimento da finalidade do cadastro (a venda).
+D viola o princípio da finalidade, pois os dados sensíveis
+coletados não possuem um propósito legítimo, específico e
+explícito informado ao titular.
+E representa uma falha no princípio da transparência, pois o
+titular dos dados não foi informado sobre o tempo de retenção
+da informação.
+
+-- 7 of 9 --
+
+CEBRASPE – TCE/MG – Edital: 2025
+QUESTÃO 63 <TCEMG128001A05E1492>
+Um órgão da administração pública federal necessita
+contratar uma solução de software como serviço (SaaS) para
+gestão de recursos humanos. A equipe de planejamento da
+contratação está elaborando os artefatos da fase 1 (planejamento),
+em conformidade com a Lei n.º 14.133/2021 e a Instrução
+Normativa SGD/ME n.º 94/2022. Sobre os artefatos e
+procedimentos dessa fase, julgue os itens a seguir.
+I O estudo técnico preliminar (ETP) e o mapa de
+gerenciamento de riscos devem ser elaborados antes da
+emissão do termo de referência (TR), sendo que o TR deverá
+utilizar as definições de ambos para detalhar o objeto.
+II O documento de oficialização da demanda (DOD) é o artefato
+que encerra a fase de planejamento, sendo assinado pela
+autoridade máxima de TI, após a aprovação do termo de
+referência.
+III O mapa de gerenciamento de riscos deve analisar os riscos
+que possam comprometer o sucesso das fases 2 (seleção do
+fornecedor) e 3 (gestão contratual), excluindo os riscos da
+fase 1 (planejamento), pois esta já está em execução.
+Assinale a opção correta.
+A Apenas o item I está certo.
+B Apenas o item II está certo.
+C Apenas os itens I e III estão certos.
+D Apenas os itens II e III estão certos.
+E Todos os itens estão certos.
+QUESTÃO 64 <TCEMG128001A05E1492>
+Uma infraestrutura crítica do setor financeiro está
+desenvolvendo seu sistema de gestão de continuidade de
+negócios (SGCN) e revisando seu sistema de gestão de segurança
+da informação (SGSI). A equipe de cibersegurança foi instruída a
+utilizar os padrões da família ISO e o framework do NIST. Nesse
+contexto, a norma que especifica os requisitos para a
+implementação de um SGCN (para garantir que a organização
+possa se recuperar de incidentes disruptivos) e o framework do
+NIST que organiza os resultados de cibersegurança em cinco
+funções (identificar, proteger, detectar, responder e recuperar)
+são, respectivamente,
+A ISO/IEC 22301 e NIST SP 800-53.
+B ISO/IEC 27001 e ISO/IEC 22301.
+C ISO/IEC 22301 e NIST Cybersecurity Framework (CSF).
+D ISO/IEC 27001 e NIST Cybersecurity Framework (CSF).
+E ISO/IEC 27002 e NIST SP 800-53.
+AUDITORIA EM SISTEMAS DE
+TECNOLOGIA DA INFORMAÇÃO
+QUESTÃO 65 <SEFAPR135CG1A02E3674>
+Na auditoria e na governança de TI, são classificados como
+controles gerais de TI
+I a gestão de usuários.
+II a segregação de funções de negócios.
+III o gerenciamento de alterações.
+IV o registro de transações e o reporte de erros.
+V o backup e a recuperação.
+Assinale a opção correta.
+A Apenas os itens I, II e IV estão certos.
+B Apenas os itens I, III e IV estão certos.
+C Apenas os itens I, III e V estão certos.
+D Apenas os itens II, III e V estão certos.
+E Apenas os itens II, IV e V estão certos.
+QUESTÃO 66
+Assinale a opção que corresponde ao framework da ISACA que
+estabelece objetivos de controle e práticas de gestão de TI.
+A ISSAI 5300
+B ISO/IEC 27001
+C COSO
+D COBIT
+E ITAF
+QUESTÃO 67
+Assinale a opção que apresenta a ferramenta de TI mais
+apropriada para examinar grandes volumes de registros
+financeiros e identificar inconsistências em uma auditoria de
+políticas públicas e finanças.
+A plataforma de BI para relatórios gerenciais
+B planilha eletrônica genérica
+C sistema de gestão documental
+D ferramenta de análise forense de dados
+E software de ERP corporativo
+QUESTÃO 68
+Julgue os itens a seguir, relativos à análise de dados aplicada à
+auditoria.
+I O data profiling permite avaliar a qualidade dos dados por
+meio de estatísticas descritivas, como frequência de valores
+nulos, distribuição de frequências e identificação de padrões
+de preenchimento.
+II O process mining infere automaticamente o modelo de
+processo a partir dos registros de eventos e permite a análise
+de conformidade em relação a um modelo pré-definido por
+meio de conformance checking.
+III O uso combinado de data profiling e process mining
+possibilita tanto a detecção de anomalias nos dados quanto a
+avaliação da aderência dos fluxos reais aos procedimentos
+oficiais.
+Assinale a opção correta.
+A Apenas o item I está certo.
+B Apenas o item II está certo.
+C Apenas os itens I e III estão certos.
+D Apenas os itens II e III estão certos.
+E Todos os itens estão certos.
+TI CORPORATIVA
+QUESTÃO 69 <SEFAPR135CG1A02E3674>
+Na AWS, o serviço de armazenamento de dados em nuvem é
+conhecido como
+A Amazon RDS.
+B Amazon EC2.
+C Amazon Route 53.
+D Amazon S3.
+E Amazon ElastiCache.
+QUESTÃO 70 <TCEMG128001A07E2859>
+Em DevOps, a etapa em que as equipes definem os processos de
+gerenciamento de versão é a de
+A desenvolvimento.
+B entrega.
+C planejamento.
+D operação.
+E codificação.
+
+-- 8 of 9 --
+
+CEBRASPE – TCE/MG – Edital: 2025
+QUESTÃO 71 <TCEMG128001A07E2859>
+No modelo de rede TCP/IP, a camada de Internet é responsável
+A pela comunicação direta entre dispositivos na mesma rede
+física.
+B pelo endereçamento lógico e roteamento dos pacotes de dados
+entre diferentes redes.
+C por fornecer serviços diretamente aos aplicativos de usuário,
+como e-mail e navegação na web.
+D por garantir a comunicação de ponta a ponta entre os
+dispositivos.
+E por combinar as funcionalidades das camadas de sessão,
+apresentação e aplicação do modelo OSI.
+QUESTÃO 72 <TCEMG128001A07E2859>
+O OAuth é um padrão de autenticação SSO (single sign-on) no
+qual
+A as aplicações utilizam um conjunto de regras para trocar
+informações de autenticação.
+B o provedor de serviços assume o papel de autenticar as
+credenciais do usuário.
+C duas ou mais partes verificam mutuamente suas identidades
+na rede.
+D um único conjunto de credenciais de usuário é utilizado para
+acessar diversos sites.
+E as aplicações obtêm acesso seguro às informações do usuário
+de outros sites sem necessidade de fornecer senhas.
+AUDITORIA DO SETOR PÚBLICO
+QUESTÃO 73 <SEFAPR135CG1A02E3674>
+Assinale a opção que apresenta a(s) atividade(s) de auditoria
+pública que contribui(em) para a transparência e a accountability
+no uso de recursos públicos.
+A tanto a auditoria interna quanto a externa
+B apenas a auditoria externa de conformidade
+C apenas a auditoria interna operacional
+D apenas a auditoria interna
+E apenas a auditoria externa
+QUESTÃO 74 <TCEMG128001A10E3613>
+A atividade executada pelo auditor que busca verificar se a
+entidade auditada deu tratamento adequado às questões
+levantadas em um relatório de auditoria denomina-se
+A inspeção.
+B consultoria.
+C monitoramento.
+D acompanhamento.
+E levantamento.
+Texto 1A10
+Uma equipe de auditoria foi designada para avaliar a
+efetividade de um programa de segurança pública, concebido
+para reduzir a criminalidade na capital do estado e nas cidades
+circunvizinhas.
+QUESTÃO 75 <TCEMG128001A10E3613>
+Assinale a opção que corresponde ao tipo de auditoria adequada
+para o objetivo do trabalho apresentado na situação hipotética do
+texto 1A10.
+A de conformidade
+B financeira
+C operacional
+D forense
+E contábil
+QUESTÃO 76 <TCEMG128001A10E3613>
+Na situação hipotética do texto 1A10, os documentos de
+planejamento da auditoria devem indicar
+A as recomendações da equipe de auditoria para tratamento dos
+achados.
+B as causas dos achados da auditoria.
+C a opinião da equipe de auditoria.
+D os riscos possíveis ou conhecidos da auditoria e o modo como
+tais riscos serão tratados.
+E os achados da auditoria.
+QUESTÃO 77 <TCEMG128001A10E3613>
+De acordo com as normas de auditoria, os procedimentos de
+auditoria que serão aplicados durante a fase de execução devem
+ser indicados na
+A visão geral do objeto.
+B carta de representação.
+C evidência de auditoria.
+D matriz de achados.
+E matriz de planejamento.
+QUESTÃO 78 <TCEMG128001A10E3613>
+No que diz respeito aos resultados dos testes de controle
+utilizados em uma auditoria financeira, assinale a opção correta.
+A Se os controles estiverem operando eficazmente, a quantidade
+de testes substantivos poderá ser reduzida.
+B Se os controles forem considerados ineficazes, o auditor deve
+abrir mão de executar testes substantivos.
+C Se os controles estiverem operando eficazmente, o auditor
+deve abrir mão de executar testes substantivos.
+D Se os controles estiverem operando eficazmente, a quantidade
+de testes substantivos deverá ser ampliada.
+E Se os controles forem considerados ineficazes, a quantidade
+de testes substantivos poderá ser reduzida.
+QUESTÃO 79 <TCEMG128001A10E3613>
+Em uma auditoria de conformidade, o auditor evidenciou
+a ocorrência de irregularidade grave, que ensejava a abertura de
+contraditório para que o responsável justificasse a ocorrência ou
+restituísse aos cofres públicos o valor impugnado.
+Com base na situação hipotética apresentada, a matriz de
+responsabilização deve conter
+A descrição da situação encontrada e do critério de auditoria.
+B causas e consequências do achado de auditoria.
+C questões de auditoria e possíveis achados a elas relacionados.
+D informações requeridas para execução da auditoria e
+respectivas fontes.
+E avaliação de culpabilidade e considerações sobre
+punibilidade.
+QUESTÃO 80 <TCEMG128001A10E3613>
+No relatório de auditoria operacional, as recomendações do
+auditor devem ser
+A claras, bem fundamentadas, convincentes e de cumprimento
+obrigatório.
+B práticas, convincentes, estruturantes e de cumprimento
+obrigatório.
+C práticas, claras, relacionadas ao cumprimento de dispositivo
+legal e convincentes.
+D claras, estruturantes, de fácil cumprimento e bem
+fundamentadas.
+E práticas, claras, bem fundamentadas e convincentes.
+
+-- 9 of 9 --
+
