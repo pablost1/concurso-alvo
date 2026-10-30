@@ -17,6 +17,7 @@ export type RegistroAds = {
   gabarito: string | null;
   anulada?: boolean;
   imagens?: string[];
+  texto?: string | null;
 };
 
 export type ProvaAds = {
@@ -53,9 +54,11 @@ export function converterRegistro(r: RegistroAds): QuestaoExtraida | null {
     disciplina: competencia ? nomeGrupo(competencia) : "Não classificada",
     topico: no?.nome ?? "Não classificada",
     competencia,
-    // Imagens do PDF não são guardadas: a questão fica fora dos simulados.
-    dependeDeApoio: Boolean(r.imagens?.length) || dependeDeApoio(r.enunciado),
+    // Com figura ou texto-base capturados a questão é autocontida; sem eles, vale a heurística do enunciado.
+    dependeDeApoio: !(r.imagens?.length || r.texto?.trim()) && dependeDeApoio(r.enunciado),
     hash: hashQuestao(r.enunciado, alternativas),
+    textoApoio: r.texto?.trim() || null,
+    imagens: r.imagens ?? [],
   };
 }
 

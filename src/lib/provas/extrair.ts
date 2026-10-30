@@ -36,6 +36,8 @@ export type QuestaoExtraida = {
   competencia: string | null;
   dependeDeApoio: boolean;
   hash: string;
+  textoApoio?: string | null;
+  imagens?: string[];
 };
 
 export function aplicarGabarito(

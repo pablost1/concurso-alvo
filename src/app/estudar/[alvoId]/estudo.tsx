@@ -1,9 +1,10 @@
 "use client";
 
+import { CorpoQuestao } from "@/app/componentes/corpo-questao";
 import { useState } from "react";
 
 type Item = { competencia: string; nome: string; grupo: string; peso: number; dominio: number; disponiveis: number };
-type Q = { id: string; numero: number; enunciado: string; alternativas: string[]; origem: string; competencia: { id: string; nome: string } | null };
+type Q = { id: string; numero: number; enunciado: string; alternativas: string[]; origem: string; competencia: { id: string; nome: string } | null; textoApoio?: string; imagens?: string[] };
 type Resultado = {
   acertou: boolean; correta: number; explicacao: string; xpGanho: number; xpCargo: number;
   proficiencia: number; xpTotal: number; nivel: number; streakDias: number;
@@ -78,7 +79,7 @@ export function Estudo({ alvoId, itens, xpInicial, profInicial }: { alvoId: stri
       ) : (
         <div className="card">
           <div className="mut">{q.origem} · {q.competencia?.nome} · questão {idx + 1}/{fila.length}</div>
-          <p style={{ whiteSpace: "pre-wrap" }}>{q.enunciado}</p>
+          <CorpoQuestao enunciado={q.enunciado} textoApoio={q.textoApoio} imagens={q.imagens} />
           {q.alternativas.map((alt, i) => (
             <button
               key={i}

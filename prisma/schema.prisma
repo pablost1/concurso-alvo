@@ -228,6 +228,8 @@ model QuestaoProva {
   competencia     String? // id da taxonomia (ex.: ti.bd.sql)
   dependeDeApoio  Boolean @default(false) // exige figura/texto-base que não vem no enunciado
   hash            String? // enunciado normalizado, para eliminar duplicatas
+  textoApoio      String? // texto-base compartilhado (vem do provas-ads)
+  imagens         String? // JSON string[] de caminhos relativos a PROVAS_ADS_DIR/imagens
 
   prova     Prova      @relation(fields: [provaId], references: [id], onDelete: Cascade)
   respostas Resposta[]

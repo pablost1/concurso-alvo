@@ -121,6 +121,7 @@ export async function salvarQuestoes(provaId: string, questoes: QuestaoExtraida[
         provaId, numero: q.numero, disciplina: q.disciplina, topico: q.topico, enunciado: q.enunciado,
         alternativas: JSON.stringify(q.alternativas), correta: q.correta, tipo: q.tipo, anulada: q.anulada,
         competencia: q.competencia, dependeDeApoio: q.dependeDeApoio, hash: q.hash,
+        textoApoio: q.textoApoio ?? null, imagens: q.imagens?.length ? JSON.stringify(q.imagens) : null,
       })),
     }),
     prisma.prova.update({ where: { id: provaId }, data: { status: "ok", erro: null, totalQuestoes: questoes.length } }),
