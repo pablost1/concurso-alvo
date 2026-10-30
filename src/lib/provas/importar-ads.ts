@@ -35,6 +35,17 @@ export type ProvaAds = {
 
 const LETRAS = ["A", "B", "C", "D", "E"];
 
+/**
+ * O extrator do provas-ads às vezes carrega o texto-base de um bloco anterior para questões de outra matéria.
+ * Em competências técnicas o texto só é mantido quando o enunciado o cita; nas gerais (português, lógica…) ele é a base da questão.
+ */
+function textoPertinente(texto: string | null | undefined, enunciado: string, competencia: string | null): string | null {
+  const t = texto?.trim();
+  if (!t) return null;
+  if (competencia?.startsWith("ti.geral.")) return t;
+  return /\b(texto|trecho|fragmento|excerto)\b/i.test(enunciado) ? t : null;
+}
+
 /** Converte um registro; devolve null quando não há gabarito utilizável. */
 export function converterRegistro(r: RegistroAds): QuestaoExtraida | null {
   const alternativas = LETRAS.map((l) => r.alternativas?.[l]).filter((a): a is string => Boolean(a?.trim()));
@@ -44,6 +55,7 @@ export function converterRegistro(r: RegistroAds): QuestaoExtraida | null {
   if (idx < 0 && !anulada) return null;
   const competencia = melhorCompetencia(r.enunciado, alternativas.join(" "));
   const no = competencia ? competenciaPorId(competencia) : undefined;
+  const texto = textoPertinente(r.texto, r.enunciado, competencia);
   return {
     numero: r.numero,
     enunciado: r.enunciado.trim(),
@@ -55,9 +67,9 @@ export function converterRegistro(r: RegistroAds): QuestaoExtraida | null {
     topico: no?.nome ?? "Não classificada",
     competencia,
     // Com figura ou texto-base capturados a questão é autocontida; sem eles, vale a heurística do enunciado.
-    dependeDeApoio: !(r.imagens?.length || r.texto?.trim()) && dependeDeApoio(r.enunciado),
+    dependeDeApoio: !(r.imagens?.length || texto) && dependeDeApoio(r.enunciado),
     hash: hashQuestao(r.enunciado, alternativas),
-    textoApoio: r.texto?.trim() || null,
+    textoApoio: texto,
     imagens: r.imagens ?? [],
   };
 }

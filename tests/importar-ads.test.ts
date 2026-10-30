@@ -65,8 +65,12 @@ describe("texto de apoio e figuras", () => {
     expect(q.imagens).toEqual(["p/x.png"]);
   });
   it("com texto de apoio guarda o texto", () => {
-    const q = converterRegistro({ ...regBase, texto: "  Texto base  " })!;
+    const q = converterRegistro({ ...regBase, enunciado: "Segundo o texto, em SQL, qual comando consulta dados?", texto: "  Texto base  " })!;
     expect(q.dependeDeApoio).toBe(false);
     expect(q.textoApoio).toBe("Texto base");
+  });
+  it("descarta texto de apoio que não pertence à questão técnica", () => {
+    const q = converterRegistro({ ...regBase, enunciado: "Em SQL, qual comando consulta dados?", texto: "Texto de direito de outra seção" })!;
+    expect(q.textoApoio).toBeNull();
   });
 });
