@@ -21,8 +21,8 @@ describe("importação do provas-ads", () => {
     expect(converterRegistro({ ...base, gabarito: null })).toBeNull();
     expect(converterRegistro({ ...base, gabarito: null, anulada: true })?.anulada).toBe(true);
   });
-  it("questão com imagem fica fora dos simulados", () => {
-    expect(converterRegistro({ ...base, imagens: ["x.png"] })!.dependeDeApoio).toBe(true);
+  it("questão com imagem capturada entra nos simulados", () => {
+    expect(converterRegistro({ ...base, imagens: ["x.png"] })!.dependeDeApoio).toBe(false);
   });
   it("agrupa por prova e preenche metadados", () => {
     const [p] = agruparProvas([base, { ...base, id: "p1#002", numero: 2, gabarito: null }]);
@@ -51,5 +51,22 @@ describe("órgão da prova (sigla do PCI) × nome do concurso", () => {
     expect(casa("Instituto Brasileiro de Geografia e Estatística", "IBGE")).toBe(true);
     expect(casa("Prefeitura de Boa Vista - RR", "Pref. Boa Vista/RR - SMAG")).toBe(true);
     expect(casa("Prefeitura de Nova Boa Vista", "Pref. Boa Vista/RR - SMAG")).toBe(false);
+  });
+});
+
+describe("texto de apoio e figuras", () => {
+  const regBase = { id: "p#1", prova_id: "p", banca: "FGV", ano: 2020, orgao: "IBGE", cargo: "Analista de Sistemas", numero: 1, enunciado: "Observe a figura a seguir. Em SQL, qual comando consulta dados?", alternativas: { A: "a", B: "b", C: "c", D: "d" }, gabarito: "A", imagens: [] as string[] };
+  it("sem apoio capturado, enunciado que cita figura continua fora dos simulados", () => {
+    expect(converterRegistro(regBase)!.dependeDeApoio).toBe(true);
+  });
+  it("com figura capturada a questão entra e guarda os caminhos", () => {
+    const q = converterRegistro({ ...regBase, imagens: ["p/x.png"] })!;
+    expect(q.dependeDeApoio).toBe(false);
+    expect(q.imagens).toEqual(["p/x.png"]);
+  });
+  it("com texto de apoio guarda o texto", () => {
+    const q = converterRegistro({ ...regBase, texto: "  Texto base  " })!;
+    expect(q.dependeDeApoio).toBe(false);
+    expect(q.textoApoio).toBe("Texto base");
   });
 });

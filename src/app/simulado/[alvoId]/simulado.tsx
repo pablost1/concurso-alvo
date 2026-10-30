@@ -1,11 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import { CorpoQuestao } from "@/app/componentes/corpo-questao";
 import { useState } from "react";
 
 type Q = {
   id: string; numero: number; enunciado: string; alternativas: string[]; origem: string;
-  competencia: { id: string; nome: string } | null;
+  competencia: { id: string; nome: string } | null; textoApoio?: string; imagens?: string[];
 };
 type Resultado = { acertou: boolean; correta: number; explicacao: string; xpGanho: number; proficiencia: number; xpTotal: number };
 type Cobertura = { competencia: string; nome: string; pedidas: number; entregues: number };
@@ -114,7 +115,7 @@ export function Simulado({ alvoId, cargo, concurso, cruzado }: { alvoId: string;
   return (
     <div className="card">
       <div className="mut">{q.origem} · questão {q.numero} · {q.competencia?.nome ?? "—"} · {idx + 1}/{fila.length}</div>
-      <p style={{ whiteSpace: "pre-wrap" }}>{q.enunciado}</p>
+      <CorpoQuestao enunciado={q.enunciado} textoApoio={q.textoApoio} imagens={q.imagens} />
       {q.alternativas.map((alt, i) => (
         <button key={i} disabled={escolha !== null}
           className={`opt ${res ? (i === res.correta ? "certa" : i === escolha ? "errada" : "") : ""}`}

@@ -88,3 +88,9 @@ th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--brd
 th { color: var(--mut); font-weight: 600; font-size: .85rem; }
 
 @media (max-width: 600px) { .wrap { padding: 16px 12px 40px; } .card { padding: 14px; } }
+
+/* texto de apoio e figuras das questões */
+.apoio { background: var(--bg); border: 1px solid var(--brd); border-left: 4px solid var(--pri); border-radius: 8px; padding: 8px 14px; }
+.apoio p { white-space: pre-wrap; max-height: 320px; overflow: auto; margin: 6px 0; }
+.figs { display: flex; flex-direction: column; gap: 8px; }
+.figs img { max-width: 100%; height: auto; background: #fff; border: 1px solid var(--brd); border-radius: 8px; align-self: flex-start; }

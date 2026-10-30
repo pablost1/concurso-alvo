@@ -17,7 +17,12 @@ export type QuestaoSimulado = {
   alternativas: string[];
   origem: string; // ex.: "ABIN 2018 · cebraspe"
   competencia: { id: string; nome: string } | null;
+  textoApoio?: string;
+  imagens: string[]; // URLs servidas por /api/provas/imagens
 };
+
+const urlsDasImagens = (json: string | null) =>
+  (json ? (JSON.parse(json) as string[]) : []).map((i) => `/api/provas/imagens/${i.split("/").map(encodeURIComponent).join("/")}`);
 
 async function contexto(userId: string, alvoId: string) {
   const alvo = await prisma.alvo.findFirst({
@@ -42,7 +47,7 @@ async function candidatas(userId: string, comps: string[]) {
       respostas: { none: { userId } },
     },
     select: {
-      id: true, numero: true, enunciado: true, alternativas: true, competencia: true, hash: true,
+      id: true, numero: true, enunciado: true, alternativas: true, competencia: true, hash: true, textoApoio: true, imagens: true,
       prova: { select: { id: true, orgao: true, orgaoChave: true, ano: true, banca: true, area: true, cargoNome: true } },
     },
   });
@@ -86,6 +91,7 @@ export async function montarSimulado(userId: string, alvoId: string, modo: ModoS
       id: l.id, numero: l.numero, enunciado: l.enunciado, alternativas: JSON.parse(l.alternativas) as string[],
       origem: `${l.prova.orgao}${l.prova.ano ? ` ${l.prova.ano}` : ""} · ${l.prova.banca}`,
       competencia: no ? { id: no.id, nome: no.nome } : null,
+      textoApoio: l.textoApoio ?? undefined, imagens: urlsDasImagens(l.imagens),
     };
   });
   return { questoes, cobertura: cobertura as Cobertura[], fonte: ctx.perfil.fonte };
@@ -112,6 +118,7 @@ export async function montarPratica(userId: string, alvoId: string, competencia:
       id: l.id, numero: l.numero, enunciado: l.enunciado, alternativas: JSON.parse(l.alternativas) as string[],
       origem: `${l.prova.orgao}${l.prova.ano ? ` ${l.prova.ano}` : ""} · ${l.prova.banca}`,
       competencia: no ? { id: no.id, nome: no.nome } : null,
+      textoApoio: l.textoApoio ?? undefined, imagens: urlsDasImagens(l.imagens),
     })) as QuestaoSimulado[],
   };
 }
