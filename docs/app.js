@@ -181,16 +181,19 @@ async function telaCompetencias() {
 
 function montarFila(d) {
   // Round-robin entre competências técnicas, priorizando as que o usuário domina menos; ignora as já respondidas.
-  const livres = d.questoes.filter((q) => !estado.respondidas[q.id] && !q.c.startsWith("ti.geral."));
+  const disponiveis = d.questoes.filter((q) => !estado.respondidas[q.id] && (!q.c.startsWith("ti.geral.") || q.t));
+  // Garante algumas questões com figura/texto de apoio no simulado.
+  const apoio = disponiveis.filter((q) => q.t || q.i).sort(() => Math.random() - 0.5).slice(0, 3);
+  const livres = disponiveis.filter((q) => !apoio.includes(q));
   const porComp = new Map();
   for (const q of livres) porComp.set(q.c, [...(porComp.get(q.c) ?? []), q]);
   const ordem = [...porComp.keys()].sort((a, b) => dominioDe(a) - dominioDe(b) || (a < b ? -1 : 1));
   for (const lista of porComp.values()) lista.sort(() => Math.random() - 0.5);
-  const fila = [];
+  const fila = [...apoio];
   while (fila.length < TAM_SIMULADO && ordem.some((c) => porComp.get(c).length)) {
     for (const c of ordem) { const q = porComp.get(c).pop(); if (q && fila.length < TAM_SIMULADO) fila.push(q); }
   }
-  return fila;
+  return fila.sort(() => Math.random() - 0.5);
 }
 
 async function telaSimulado(cargoId) {
@@ -234,7 +237,9 @@ async function telaSimulado(cargoId) {
       h("h1", {}, `Simulado — questão ${idx + 1}/${fila.length}`),
       h("div", { class: "card" },
         h("div", { class: "row mut" }, h("span", { class: "badge" }, nomeComp.get(q.c) ?? q.c), h("span", {}, q.o)),
-        h("p", {}, q.e), botoes, info, proxima));
+        q.t && h("details", { class: "apoio", open: true }, h("summary", {}, "Texto de apoio"), h("p", {}, q.t)),
+        q.i && h("div", { class: "figs" }, q.i.map((src) => h("img", { src, alt: "Figura da questão", loading: "lazy" }))),
+        h("p", { style: "white-space:pre-wrap" }, q.e), botoes, info, proxima));
   }
   desenhar();
   return raiz;

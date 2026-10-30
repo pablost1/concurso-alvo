@@ -92,3 +92,9 @@ th { color: var(--mut); font-weight: 600; font-size: .85rem; }
 /* demo estática */
 .aviso { background: var(--pri-soft); color: var(--txt); border-bottom: 1px solid var(--brd); padding: 8px 16px; font-size: .85rem; text-align: center; }
 label { display: flex; flex-direction: column; gap: 4px; }
+
+/* texto de apoio e figuras */
+.apoio { background: var(--bg); border: 1px solid var(--brd); border-left: 4px solid var(--pri); border-radius: 8px; padding: 8px 14px; }
+.apoio p { white-space: pre-wrap; max-height: 320px; overflow: auto; margin: 6px 0; }
+.figs { display: flex; flex-direction: column; gap: 8px; }
+.figs img { max-width: 100%; height: auto; background: #fff; border: 1px solid var(--brd); border-radius: 8px; align-self: flex-start; }
