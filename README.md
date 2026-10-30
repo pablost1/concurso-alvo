@@ -58,3 +58,9 @@ Só entram questões com gabarito; duplicadas (mesmo enunciado já no banco) e f
 ## Provas passadas do PCI Concursos (só links)
 
 Em **Meus alvos**, cada cargo tem "Provas passadas para este cargo": links do PCI separados em *este concurso* (mesmo órgão) e *outros concursos*. O sistema apenas lista as páginas de provas (permitidas pelo `robots.txt`, com cache de 7 dias); você abre o link, resolve o captcha, baixa prova e gabarito e envia em `/provas` (ou usa o `provas-ads` + `npm run provas:importar-ads`).
+
+## Demonstração no GitHub Pages
+
+A pasta `docs/` é um site **estático** (HTML/CSS/JS) para o GitHub Pages: o app completo (Next.js + banco) precisa de servidor e não roda no Pages. A demo usa um login simulado (`guest` / `guest`), uma amostra de concursos e de questões (`docs/data/demo.json`, gerado por `npm run demo:gerar`) e guarda o progresso só no navegador do visitante.
+
+Para publicar: *Settings → Pages → Branch `pages-demo` → pasta `/docs`*.

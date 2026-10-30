@@ -11,7 +11,8 @@
     "provas:backfill": "tsx scripts/backfill.ts",
     "taxonomia:sugerir": "tsx scripts/taxonomia-sugerir.ts",
     "provas:reclassificar": "tsx scripts/reclassificar.ts",
-    "provas:importar-ads": "tsx scripts/importar-provas-ads.ts"
+    "provas:importar-ads": "tsx scripts/importar-provas-ads.ts",
+    "demo:gerar": "tsx scripts/gerar-demo.ts"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3",
